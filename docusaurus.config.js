@@ -7,7 +7,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: 'BillaBear',
-  tagline: 'Dinosaurs are cool',
+  tagline: 'Making billing super easy',
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
@@ -36,11 +36,6 @@ const config = {
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
         },
-        blog: {
-          showReadingTime: true,
-          // Please change this to your repo.
-          // Remove this to remove the "edit this page" links.
-        },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
         },
@@ -54,9 +49,9 @@ const config = {
       // Replace with your project's social card
       image: 'img/docusaurus-social-card.jpg',
       navbar: {
-        title: 'My Site',
+        title: 'BillaBear',
         logo: {
-          alt: 'My Site Logo',
+          alt: 'BillaBear',
           src: 'img/logo.svg',
         },
         items: [
