@@ -7,7 +7,7 @@ Customers are the entities that are paying.
 
 ## Create Customer
 
-**URI:** `/api/v1.0/customer`
+**URI:** `/api/v1.0/customer`<br />
 **METHOD:** `PUT`
 
 | Name | Required | Description | 
@@ -29,6 +29,7 @@ Customers are the entities that are paying.
 ### Response
 
 | Status Code | Meaning |
+| --- | --- |
 | 400 | There has been an invalid request sent |
 | 409 | Customer for billing email already exists |
 | 201 | The customer has been created |
