@@ -13,7 +13,7 @@ Customers are the entities that are paying.
 | Name | Required | Description | 
 | --- | --- | --- |
 | email | yes | The billing email of the customer |
-| country | yes | The billing country of the customer |
+| country | yes | The billing country of the customer. ISO 3166-1 alpha-2 country code. |
 | reference | no | Your reference for the customer |
 | external_reference | no | The external reference from Stripe for the customer |
 
