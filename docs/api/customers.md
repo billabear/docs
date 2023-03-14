@@ -13,16 +13,23 @@ Customers are the entities that are paying.
 | Name | Required | Description | 
 | --- | --- | --- |
 | email | yes | The billing email of the customer |
-| country | yes | The billing country of the customer. ISO 3166-1 alpha-2 country code. |
 | reference | no | Your reference for the customer |
 | external_reference | no | The external reference from Stripe for the customer |
+| address.street_line_one | no | The first line of the street address |
+| address.street_line_two | no | The second line of the street address |
+| address.city | no | The city for the address. |
+| address.region | no | The region/state for the address |
+| address.country | yes | The billing country of the customer. ISO 3166-1 alpha-2 country code. |
+| address.post_code | no | The postal code for the address |
 
 ### Example
 
 ```json
 {
     email: "iain.cambridge@example.org",
-    country: "DE"
+	address: {
+    	country: "DE"
+	}
 }
 ```
 
@@ -76,7 +83,9 @@ Customers are the entities that are paying.
 		"reference": "Customer One",
 		"external_reference": "cust_jf9j545",
 		"email": "customer.one@example.org",
-		"country": "DE"
+		"address": {
+			"country": "DE"
+		}
 	}],
 	"has_more": false,
 	"last_key": "4f3b3c5c-d819-48a6-a34e-a9c95d536028"
