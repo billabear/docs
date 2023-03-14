@@ -12,6 +12,7 @@ Customers are the entities that are paying.
 
 | Name | Required | Description | 
 | --- | --- | --- |
+| name | no | The name of the customer |
 | email | yes | The billing email of the customer |
 | reference | no | Your reference for the customer |
 | external_reference | no | The external reference from Stripe for the customer |
