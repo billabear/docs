@@ -13,7 +13,7 @@ Customers are the entities that are paying.
 | Name | Required | Description | 
 | --- | --- | --- |
 | name | no | The name of the customer |
-| email | yes | The billing email of the customer |
+| email | yes | The billing email of the customer. Must be unique. |
 | reference | no | Your reference for the customer |
 | external_reference | no | The external reference from Stripe for the customer |
 | address.street_line_one | no | The first line of the street address |
@@ -56,7 +56,7 @@ Customers are the entities that are paying.
 ## List Customers
 
 **URI:** `/api/v1.0/customer`<br />
-**METHOD:** `PUT`
+**METHOD:** `GET`
 
 ### Query Parameters
 
@@ -90,5 +90,30 @@ Customers are the entities that are paying.
 	}],
 	"has_more": false,
 	"last_key": "4f3b3c5c-d819-48a6-a34e-a9c95d536028"
+}
+```
+
+## Get Customer
+
+**URI:** `/api/v1.0/customer/{id}`<br />
+**METHOD:** `GET`
+
+### Parameters
+
+| Name | Required | Description |
+| --- | --- | --- |
+| id | yes | The ID for the customer |
+
+### Response
+
+```json
+{
+	"id": "4f3b3c5c-d819-48a6-a34e-a9c95d536028",
+	"reference": "Customer One",
+	"external_reference": "cust_jf9j545",
+	"email": "customer.one@example.org",
+	"address": {
+		"country": "DE"
+	}
 }
 ```
