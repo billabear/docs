@@ -42,6 +42,7 @@ Customers are the entities that are paying.
 | 409 | Customer for billing email already exists |
 | 201 | The customer has been created |
 
+
 #### Error Output
 
 ```json
@@ -50,6 +51,23 @@ Customers are the entities that are paying.
     errors: {
         email: "Invalid email"
     }
+}
+```
+
+#### Success Output
+
+```json
+{
+	success: true,
+	customer: {
+		"id": "4f3b3c5c-d819-48a6-a34e-a9c95d536028",
+		"reference": "Customer One",
+		"external_reference": "cust_jf9j545",
+		"email": "customer.one@example.org",
+		"address": {
+			"country": "DE"
+		}
+	}
 }
 ```
 
