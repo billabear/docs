@@ -8,7 +8,7 @@ Customers are the entities that are paying.
 ## Create Customer
 
 **URI:** `/api/v1.0/customer`<br />
-**METHOD:** `PUT`
+**METHOD:** `POST`
 
 | Name | Required | Description | 
 | --- | --- | --- |
