@@ -47,7 +47,6 @@ Customers are the entities that are paying.
 
 ```json
 {
-    success: false,
     errors: {
         email: "Invalid email",
 		"address.country": "Invalid country"
@@ -59,8 +58,6 @@ Customers are the entities that are paying.
 
 ```json
 {
-	success: true,
-	customer: {
 		"id": "4f3b3c5c-d819-48a6-a34e-a9c95d536028",
 		"reference": "Customer One",
 		"external_reference": "cust_jf9j545",
@@ -68,7 +65,6 @@ Customers are the entities that are paying.
 		"address": {
 			"country": "DE"
 		}
-	}
 }
 ```
 
