@@ -121,6 +121,11 @@ Customers are the entities that are paying.
 
 ### Response
 
+| Status Code | Meaning |
+| --- | --- |
+| 404 | No customer found |
+| 200 | The customer was found and returned |
+
 ```json
 {
 	"id": "4f3b3c5c-d819-48a6-a34e-a9c95d536028",
