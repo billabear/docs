@@ -179,7 +179,8 @@ Customers are the entities that are paying.
 | Status Code | Meaning |
 | --- | --- |
 | 404 | No customer found |
-| 200 | The customer was found and returned |
+| 400 | Invalid request body |
+| 202 | The customer was found and updated |
 
 ```json
 {
