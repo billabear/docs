@@ -137,3 +137,58 @@ Customers are the entities that are paying.
 	}
 }
 ```
+
+## Update Customer
+
+**URI:** `/api/v1.0/customer/{id}`<br />
+**METHOD:** `PUT`
+
+### Parameters
+
+| Name | Required | Description |
+| --- | --- | --- |
+| id | yes | The ID for the customer |
+
+## Request Body
+
+| Name | Required | Description | 
+| --- | --- | --- |
+| name | no | The name of the customer |
+| email | yes | The billing email of the customer. Must be unique. |
+| reference | no | Your reference for the customer |
+| external_reference | no | The external reference from Stripe for the customer |
+| address.street_line_one | no | The first line of the street address |
+| address.street_line_two | no | The second line of the street address |
+| address.city | no | The city for the address. |
+| address.region | no | The region/state for the address |
+| address.country | yes | The billing country of the customer. ISO 3166-1 alpha-2 country code. |
+| address.post_code | no | The postal code for the address |
+
+
+```json
+{
+    email: "iain.cambridge@example.org",
+	address: {
+    	country: "DE"
+	}
+}
+```
+
+### Response
+
+| Status Code | Meaning |
+| --- | --- |
+| 404 | No customer found |
+| 200 | The customer was found and returned |
+
+```json
+{
+	"id": "4f3b3c5c-d819-48a6-a34e-a9c95d536028",
+	"reference": "Customer One",
+	"external_reference": "cust_jf9j545",
+	"email": "customer.one@example.org",
+	"address": {
+		"country": "DE"
+	}
+}
+```
