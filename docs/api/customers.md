@@ -40,6 +40,7 @@ Customers are the entities that are paying.
 | --- | --- |
 | 400 | There has been an invalid request sent |
 | 409 | Customer for billing email already exists |
+| 424 | Payment Provider failure |
 | 201 | The customer has been created |
 
 
