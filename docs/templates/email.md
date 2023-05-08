@@ -24,4 +24,22 @@ BillaBear has a fallback order for email templates, so if there is no specific t
 
 In the templates the following variables are defined.
 
+
+### General
+
+Variables that are available in all emails templates.
+
+| Name | Description | Example |
+| brand.name | Name of the brand | BillaBear |
+| brand.address.company_name | The name of the company in the address | Humbly Arrogant Software Limited |
+| brand.address.street_line_one | The first line of the address | 1 Example Way |
+| brand.address.street_line_two | The second line of the address |  |
+| brand.address.city | The city for the address | Exampleville |
+| brand.address.region | The region/state for the address | Renfrewshire |
+| brand.address.country | The country code for the address | GB |
+| brand.address.postcode | The post code for the address | PA5 1ND |
+| customer.name | The name of the customer | Example User |
+| customer.email | The email for the customer | iain.cambridge@example.org |
+
 ### Subscription Created
+
