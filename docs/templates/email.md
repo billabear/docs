@@ -9,6 +9,8 @@ Sending custom emails are an essential part of running a software business. Cust
 
 BillaBear integrates with SendGrid, Mailgun, and Postmark email service providers and allows you to use their template system. When using this you must give the template id given by the email service provider. 
 
+If you use BillaBear's template system instead, it's powered by the template language Twig.
+
 ## Fallback Order
 
 BillaBear has a fallback order for email templates, so if there is no specific template for a locale and brand then it'll look for a fallback.
@@ -17,3 +19,4 @@ BillaBear has a fallback order for email templates, so if there is no specific t
 2. Then it looks for Default Locale and Brand.
 3. Then it looks for  Default Locale and Default Brand
 4. Then it throws an error
+
