@@ -30,6 +30,7 @@ In the templates the following variables are defined.
 Variables that are available in all emails templates.
 
 | Name | Description | Example |
+| --- | --- | --- |  
 | brand.name | Name of the brand | BillaBear |
 | brand.address.company_name | The name of the company in the address | Humbly Arrogant Software Limited |
 | brand.address.street_line_one | The first line of the address | 1 Example Way |
@@ -43,3 +44,13 @@ Variables that are available in all emails templates.
 
 ### Subscription Created
 
+All variables described in general are available as well as the ones described below.
+
+| Name | Description | Example |
+| --- | --- | --- |  
+| subscription.plan_name | The plan name for the subscription | Intro |
+| subscription.has_trial | A boolean, true or false, value for if the subscription has a trial | true |
+| subscription.trial_length | The number of days the trial lasts | 7 |
+| subscription.payment_schedule | The payment schedule for the subscription - `week`, `month`, `year` | month | 
+| subscription.amount | The amount that the subscription costs per payment schedule | 10.00 EUR |
+| subscription.next_payment_due | The due date for the next payment | 2021-01-03T02:30:00+01:00 |
