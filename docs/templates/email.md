@@ -20,3 +20,8 @@ BillaBear has a fallback order for email templates, so if there is no specific t
 3. Then it looks for  Default Locale and Default Brand
 4. Then it throws an error
 
+## Template Variables
+
+In the templates the following variables are defined.
+
+### Subscription Created
