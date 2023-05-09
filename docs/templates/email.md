@@ -65,3 +65,6 @@ All variables described in general are available as well as the ones described b
 | payment.amount | The amount for the payment | 10.00 EUR |
 | payment.currency | The currency for the payment | EUR |
 | payment.description | The description for the payment | Subscription Payment |
+| receipt.total | The total amount for the receipt | 10.00 EUR |
+| receipt.vat_total | The VAT total amount for the receipt | 2.00 EUR |
+| receipt.sub_total | The sub total amount for the receipt | 8.00 EUR |
