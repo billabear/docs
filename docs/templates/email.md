@@ -55,6 +55,15 @@ All variables described in general are available as well as the ones described b
 | subscription.amount | The amount that the subscription costs per payment schedule | 10.00 EUR |
 | subscription.next_payment_due | The due date for the next payment | 2021-01-03T02:30:00+01:00 |
 
+### Subscription Cancelled
+
+All variables described in general are available as well as the ones described below.
+
+| Name | Description | Example |
+| --- | --- | --- |  
+| subscription.plan_name | The plan name for the subscription | Intro |
+| subscription.finsihes_at | The date when the plan finishes | 2021-01-03T02:30:00+01:00 |
+
 ### Payment Created
 
 All variables described in general are available as well as the ones described below.
