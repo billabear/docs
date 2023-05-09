@@ -54,3 +54,14 @@ All variables described in general are available as well as the ones described b
 | subscription.payment_schedule | The payment schedule for the subscription - `week`, `month`, `year` | month | 
 | subscription.amount | The amount that the subscription costs per payment schedule | 10.00 EUR |
 | subscription.next_payment_due | The due date for the next payment | 2021-01-03T02:30:00+01:00 |
+
+### Payment Created
+
+All variables described in general are available as well as the ones described below.
+
+
+| Name | Description | Example |
+| --- | --- | --- |  
+| payment.amount | The amount for the payment | 10.00 EUR |
+| payment.currency | The currency for the payment | EUR |
+| payment.description | The description for the payment | Subscription Payment |
