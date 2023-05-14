@@ -77,3 +77,14 @@ All variables described in general are available as well as the ones described b
 | receipt.total | The total amount for the receipt | 10.00 EUR |
 | receipt.vat_total | The VAT total amount for the receipt | 2.00 EUR |
 | receipt.sub_total | The sub total amount for the receipt | 8.00 EUR |
+
+### Payment Card Expiring
+
+All variables described in general are available as well as the ones described below.
+
+
+| Name | Description | Example |
+| --- | --- | --- |  
+| payment_card.last_four | The last four numbers of the card so the customer can identify the card | 42424 |
+| payment_card.expiry_month | The month the card will expire in.  | 10 |
+| payment_card.expiry_year | The year the card will expire in. | 2023 |
