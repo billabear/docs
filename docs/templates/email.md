@@ -88,3 +88,37 @@ All variables described in general are available as well as the ones described b
 | payment_card.last_four | The last four numbers of the card so the customer can identify the card | 42424 |
 | payment_card.expiry_month | The month the card will expire in.  | 10 |
 | payment_card.expiry_year | The year the card will expire in. | 2023 |
+
+### Payment Card Expiring - Day Before next payment attempt and card is still valid
+
+All variables described in general are available as well as the ones described below.
+
+
+| Name | Description | Example |
+| --- | --- | --- |  
+| payment_card.last_four | The last four numbers of the card so the customer can identify the card | 42424 |
+| payment_card.expiry_month | The month the card will expire in.  | 10 |
+| payment_card.expiry_year | The year the card will expire in. | 2023 |
+| subscription.plan_name | The plan name for the subscription | Intro |
+| subscription.has_trial | A boolean, true or false, value for if the subscription has a trial | true |
+| subscription.trial_length | The number of days the trial lasts | 7 |
+| subscription.payment_schedule | The payment schedule for the subscription - `week`, `month`, `year` | month | 
+| subscription.amount | The amount that the subscription costs per payment schedule | 10.00 EUR |
+| subscription.next_payment_due | The due date for the next payment | 2021-01-03T02:30:00+01:00 |
+
+### Payment Card Expiring - Day Before next payment attempt and has already card expired
+
+All variables described in general are available as well as the ones described below.
+
+
+| Name | Description | Example |
+| --- | --- | --- |  
+| payment_card.last_four | The last four numbers of the card so the customer can identify the card | 42424 |
+| payment_card.expiry_month | The month the card will expire in.  | 10 |
+| payment_card.expiry_year | The year the card will expire in. | 2023 |
+| subscription.plan_name | The plan name for the subscription | Intro |
+| subscription.has_trial | A boolean, true or false, value for if the subscription has a trial | true |
+| subscription.trial_length | The number of days the trial lasts | 7 |
+| subscription.payment_schedule | The payment schedule for the subscription - `week`, `month`, `year` | month | 
+| subscription.amount | The amount that the subscription costs per payment schedule | 10.00 EUR |
+| subscription.next_payment_due | The due date for the next payment | 2021-01-03T02:30:00+01:00 |
