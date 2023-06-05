@@ -1,0 +1,53 @@
+name: Deploy
+
+on: [push, pull_request]
+
+jobs:
+  build_and_deploy:
+    name: Build and deploy
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v3
+
+      - uses: actions/setup-node@v3
+        with:
+          node-version: 16
+
+      - name: Set openssl legacy provider
+        run: echo "NODE_OPTIONS=--openssl-legacy-provider" >> $GITHUB_ENV
+
+      - id: install-aws-cli
+        uses: unfor19/install-aws-cli-action@v1
+        with:
+          version: 1    # default
+          verbose: true # default
+          arch: amd64    # allowed values: amd64, arm64
+
+      - name: Install yarn
+        uses: borales/actions-yarn@v3.0.0
+        with:
+          cmd: install
+
+      - name: docusaurus build
+        uses: borales/actions-yarn@v3.0.0
+        with:
+          cmd: build
+
+      - run: aws s3 sync --delete --acl public-read build s3://docs.billabear.com
+        shell: bash
+        env:
+          AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
+          AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
+          AWS_DEFAULT_REGION: ${{ secrets.AWS_DEFAULT_REGION }}
+
+      - run: aws cloudfront create-invalidation --distribution-id E2Q741TTB7BUYA --paths "/*"
+        shell: bash
+        env:
+          AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
+          AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
+          AWS_DEFAULT_REGION: ${{ secrets.AWS_DEFAULT_REGION }}
+
+      - name: Set node options to empty string
+        run: echo "NODE_OPTIONS=\"\"" >> $GITHUB_ENV
