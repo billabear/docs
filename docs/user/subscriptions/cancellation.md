@@ -1,6 +1,6 @@
 ---
-title: Subscription Cancellation
-sidebar_label: Cancellation
+title: Subscription Cancellation Flow
+sidebar_label: Cancellation Flow
 sidebar_position: 2
 ---
 The cancellation of a subscription can be done programattically via the API. Or it can be done manually via the web dashboard.
