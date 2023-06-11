@@ -16,7 +16,7 @@ When a subscription is created it randomises which subscription plan it's for an
 
 :::caution
 
-When running with the default values expect it to take 24 hours to complete.
+When running with the default values expect it to take 24 hours to complete. This is because of how long it takes the payment provider to process the payments that are being simulated. Even in the test env it is a timely process.
 
 :::
 
@@ -25,6 +25,10 @@ When running with the default values expect it to take 24 hours to complete.
 The following command can be used to execute the command.
 
 `bin/console billabear:dev:demo-data`
+
+or with all the arguments
+
+`bin/console billabear:dev:demo-data --date="-18 months" --count=3000 --products=true`
 
 ## Options
 
