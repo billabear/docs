@@ -20,3 +20,4 @@ There are several command that can be run to help run and administrate the appli
 | [Stripe Subscription Import](stripe_subscription_import.md) | A dev command for handling syncing stripe subscription.  |
 | [Expiring Cards First Day](expiring_cards_first_day.md) | A command to be used for cronjobs. Sends notifications on first day their card is about to expire |
 | [Expiring Cards Day Before](expiring_cards_day_before.md) | A command to be used for cronjobs. Sends notifications the day before a subscription is to be charged warning of expring cards |
+| [Generate Invoices](generate_invoices.md) | A command to be used for cronjobs. Generates for invoices that will expire in the next 5 minutes. |
