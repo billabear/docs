@@ -7,6 +7,7 @@ There are several command that can be run to help run and administrate the appli
 
 | Command | Description |
 | --- | --- |
+| [Background Generic Tasks](background_generic.md) | A command to be used for cronjobs to handle background generic tasks. |
 | [Generate Demo Data](demo_data.md) | A development command to generate data that can be used to demo BillaBear. It's useful for development purposes. |
 | [Fix Stats](fix_stats.md) | A command to fix stats incase they got broken somehow. |
 | [Stripe Complete Import](stripe_complete_import.md) | A command to be used for cronjobs to handle the stripe import. |
