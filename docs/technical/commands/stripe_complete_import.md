@@ -15,6 +15,10 @@ The following command can be used to execute the command.
 
 `bin/console billabear:stripe:import`
 
+## Frequency
+
+Every minute
+
 ## Options
 
 Currently, there are none.
