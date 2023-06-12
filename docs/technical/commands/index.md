@@ -25,3 +25,5 @@ There are several command that can be run to help run and administrate the appli
 | [Update Check](./update_check) | A command to be used for cronjobs. Checks for updates. |
 | [Payment Retry](./payment_retries) | A command to be used for cronjobs. Retries payments. |
 | [Change User Password](./change_password) | A administration helper command to change a user's password. |
+| [Give User Role](./user_give_role) | A administration helper command to give a role to a user. |
+| [Remove User role](./user_remove_role) | A administration helper command to remove a role from a user. |
