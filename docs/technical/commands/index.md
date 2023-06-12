@@ -23,4 +23,5 @@ There are several command that can be run to help run and administrate the appli
 | [Generate Invoices](./generate_invoices) | A command to be used for cronjobs. Generates for invoices that will expire in the next 5 minutes. |
 | [Exchange Rates Refresh](./exchange_rates_refresh) | A command to be used for cronjobs. Refreshes the exchange rates. |
 | [Update Check](./update_check) | A command to be used for cronjobs. Checks for updates. |
-| [Payment Retry](payment_retries) | A command to be used for cronjobs. Retries payments. |
+| [Payment Retry](./payment_retries) | A command to be used for cronjobs. Retries payments. |
+| [Change User Password](./change_password) | A administration helper command to change a user's password. |
