@@ -14,7 +14,7 @@ There are several command that can be run to help run and administrate the appli
 | [Stripe Charge Back Import](./stripe_chargeback_import) | A dev command for handling syncing stripe charge backs.  |
 | [Stripe Customer Import](./stripe_customer_import) | A dev command for handling syncing stripe customer.  |
 | [Stripe Payment Import](./stripe_payments_import) | A dev command for handling syncing stripe payments.  |
-| [Stripe Price Import](./stripe_price_import | A dev command for handling syncing stripe price.  |
+| [Stripe Price Import](./stripe_price_import) | A dev command for handling syncing stripe price.  |
 | [Stripe Product Import](./stripe_product_import) | A dev command for handling syncing stripe product.  |
 | [Stripe Refund Import](./stripe_refund_import) | A dev command for handling syncing stripe refund.  |
 | [Stripe Subscription Import](./stripe_subscription_import) | A dev command for handling syncing stripe subscription.  |
