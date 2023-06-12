@@ -23,11 +23,11 @@ You can find the background tasks here, each one has it's freqency defined in th
 
 | Task | Description |
 | --- | --- |
-| [Background Generic Tasks](./background_generic) |  handle background generic tasks. |
-| [Stripe Complete Import](./stripe_complete_import) | A command to be used for cronjobs to handle the stripe import. |
-| [Expiring Cards First Day](./expiring_cards_first_day) | Sends notifications on first day their card is about to expire |
-| [Expiring Cards Day Before](./expiring_cards_day_before) | Sends notifications the day before a subscription is to be charged warning of expring cards |
-| [Generate Invoices](./generate_invoices) | Generates for invoices that will expire in the next 5 minutes. |
-| [Exchange Rates Refresh](./exchange_rates_refresh) | Refreshes the exchange rates. |
-| [Update Check](./update_check) | Checks for updates. |
-| [Payment Retry](./payment_retries) | Retries payments. |
+| [Background Generic Tasks](../commands/background_generic) |  handle background generic tasks. |
+| [Stripe Complete Import](../commands/stripe_complete_import) | A command to be used for cronjobs to handle the stripe import. |
+| [Expiring Cards First Day](../commands/expiring_cards_first_day) | Sends notifications on first day their card is about to expire |
+| [Expiring Cards Day Before](../commands/expiring_cards_day_before) | Sends notifications the day before a subscription is to be charged warning of expring cards |
+| [Generate Invoices](../commands/generate_invoices) | Generates for invoices that will expire in the next 5 minutes. |
+| [Exchange Rates Refresh](../commands/exchange_rates_refresh) | Refreshes the exchange rates. |
+| [Update Check](../commands/update_check) | Checks for updates. |
+| [Payment Retry](../commands/payment_retries) | Retries payments. |
