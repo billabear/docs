@@ -27,3 +27,4 @@ There are several command that can be run to help run and administrate the appli
 | [Change User Password](./change_password) | A administration helper command to change a user's password. |
 | [Give User Role](./user_give_role) | A administration helper command to give a role to a user. |
 | [Remove User role](./user_remove_role) | A administration helper command to remove a role from a user. |
+| [Create New User](./user_create) | A administration helper command to create a new user. |
