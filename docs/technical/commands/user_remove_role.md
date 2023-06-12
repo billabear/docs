@@ -25,3 +25,7 @@ or
 | Name | Default | Description |
 | email | `null` | The email of the user whose password you want to change |
 | role | `null` | The role to be removed |
+
+## Note
+
+This functionality is provided by our sister product [Parthenon](https://getparthenon.com/?utm_source=billabear_docs).
