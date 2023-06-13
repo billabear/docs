@@ -35,6 +35,7 @@ Can do everything
 * Product Management
 * Add Features
 * Create subscription
+* Create Vouchers
 
 ## Customer Support
 
