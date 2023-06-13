@@ -42,7 +42,9 @@ const config = {
       }),
     ],
   ],
-
+  plugins: [
+    './src/plugin/plausible',
+  ],
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
