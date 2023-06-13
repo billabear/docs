@@ -88,6 +88,11 @@ All variables described in general are available as well as the ones described b
 | payment_card.last_four | The last four numbers of the card so the customer can identify the card | 42424 |
 | payment_card.expiry_month | The month the card will expire in.  | 10 |
 | payment_card.expiry_year | The year the card will expire in. | 2023 |
+| voucher.has_voucher | If there is a voucher for adding a card during the expiry process | true |
+| voucher.type | If it's a percentage voucher or a fixed amount of credit voucher | percentage |
+| voucher.percentage | The percentage. Null if fixed amount | 10 |
+| voucher.amount | The amount if fixed credit | 1000 |
+| voucher.currency | The currency for the voucher | USD |
 
 ### Payment Card Expiring - Day Before next payment attempt and card is still valid
 
@@ -105,6 +110,11 @@ All variables described in general are available as well as the ones described b
 | subscription.payment_schedule | The payment schedule for the subscription - `week`, `month`, `year` | month | 
 | subscription.amount | The amount that the subscription costs per payment schedule | 10.00 EUR |
 | subscription.next_payment_due | The due date for the next payment | 2021-01-03T02:30:00+01:00 |
+| voucher.has_voucher | If there is a voucher for adding a card during the expiry process | true |
+| voucher.type | If it's a percentage voucher or a fixed amount of credit voucher | percentage |
+| voucher.percentage | The percentage. Null if fixed amount | 10 |
+| voucher.amount | The amount if fixed credit | 1000 |
+| voucher.currency | The currency for the voucher | USD |
 
 ### Payment Card Expiring - Day Before next payment attempt and has already card expired
 
@@ -122,3 +132,8 @@ All variables described in general are available as well as the ones described b
 | subscription.payment_schedule | The payment schedule for the subscription - `week`, `month`, `year` | month | 
 | subscription.amount | The amount that the subscription costs per payment schedule | 10.00 EUR |
 | subscription.next_payment_due | The due date for the next payment | 2021-01-03T02:30:00+01:00 |
+| voucher.has_voucher | If there is a voucher for adding a card during the expiry process | true |
+| voucher.type | If it's a percentage voucher or a fixed amount of credit voucher | percentage |
+| voucher.percentage | The percentage. Null if fixed amount | 10 |
+| voucher.amount | The amount if fixed credit | 1000 |
+| voucher.currency | The currency for the voucher | USD |
