@@ -5,6 +5,12 @@ sidebar_position: 2
 ---
 Sadly, not all customers will have their subscriptions forever and it's often required to cancel a subscription.
 
+## Permissions
+
+To be able to cancel a subscription via the BillaBear admin system you will need to have a ROLE of customer support or higher.
+
+[Check the user roles here.](../user_roles/)
+
 ## Timing
 
 Cancelling a subscription isn't the same need for each customer. You can have a customer who wants to end their subscription at the end of the month, one who wants to end on a specific date due to contractual reasons, or one that wants it ended straight away.
