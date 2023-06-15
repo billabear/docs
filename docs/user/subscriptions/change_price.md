@@ -7,7 +7,7 @@ Changing the price for a customer's price is a common customer service. BillaBea
 
 ## Permissions
 
-To be able to cancel a subscription via the BillaBear admin system you will need to have a ROLE of customer support or higher.
+To be able to change the price for a subscription via the BillaBear admin system you will need to have a ROLE of customer support or higher.
 
 [Check the user roles here.](../user_roles/)
 
