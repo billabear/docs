@@ -3,7 +3,7 @@ title: Create Subscription
 sidebar_label: Create Subscription
 sidebar_position: 7
 ---
-Changing the price for a customer's price is a common customer service. BillaBear makes this an easy task.
+Creating a subscription is a common task for account managers when onboarding new clients. BillaBear makes this an easy task.
 
 ## Permissions
 
