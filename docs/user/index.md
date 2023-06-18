@@ -18,5 +18,6 @@ There are several parts of BillaBear that can be managed from the web applicatio
 
 ## Customers
 
+* [Create Customer](./customers/create)
 * [Search Customers](./customers/search_customers.md)
-* [Enable/Disable](./customers/enable_disable.md)
+* [Enable/Disable](./customers/enable_disable)
