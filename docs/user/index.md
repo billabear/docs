@@ -7,6 +7,10 @@ Here is the documentation for how the User can operate BillaBear.
 
 There are several parts of BillaBear that can be managed from the web applications: Subscriptions, Templates, Payments, Customers, etc.
 
+## User Roles
+
+* [User Roles](./user_roles/)
+
 ## Subscriptions
 
 * [View Subscription](./subscriptions/view_subscription.md)
