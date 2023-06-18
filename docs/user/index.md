@@ -21,3 +21,7 @@ There are several parts of BillaBear that can be managed from the web applicatio
 * [Create Customer](./customers/create)
 * [Search Customers](./customers/search_customers.md)
 * [Enable/Disable](./customers/enable_disable)
+
+## Templates
+
+* [Email Template Variables](./templates/email_variables)
