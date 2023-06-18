@@ -9,5 +9,5 @@ A customer is an entity that is used for billing. It can be a company or a perso
 
 * Create Customers
 * Update Customer
-* Disable/Enable Customer
+* [Disable/Enable Customer](./enable_disable)
 * [Search Customer](./search_customers)
