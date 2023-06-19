@@ -7,46 +7,5 @@ BillaBear makes installation as easy as possible. It comes with multiple ways to
 
 To make getting up and running with BillaBear as easy as possible we've provided the following guides to how to deploy via various methods.
 
-## DigitalOcean
-
-One of the easiest ways to deploy BillaBear is to the DigitalOcean's App Platform where they handle all the infrastucture things for you.
-
-It's as easy as:
-
-* clicking the button below. 
-* Click next on resources
-* Click edit on global environment variables
-* Enter your stripe API credentials into fields - Fetch from [Stripe's dashboard](https://dashboard.stripe.com/apikeys).
-* Create a secret key and copy that into `STRIPE_PRIVATE_API_KEY`
-* Copy publishable key and copy that into `STRIPE_PUBLIC_API_KEY`
-* Click save
-* Click next on enviroment variables
-* click next on Info
-* click create resources
-
-
-[![Deploy to DO](https://www.deploytodo.com/do-btn-blue.svg)](https://cloud.digitalocean.com/apps/new?repo=https://github.com/billabear/billabear/tree/main)
-
-
-
-You can watch a video of demostrating how easy it here - [ insert link later ]
-
-## Docker Compose
-
-It's also possible to setup BillaBear using docker compose.
-
-* have docker compose installed
-* clone https://github.com/billabear/hosting-docker-compose
-* go to directory
-* edit the `.env` file to add the API keys - Fetch from [Stripe's dashboard](https://dashboard.stripe.com/apikeys).
-* Create a secret key and copy that into `STRIPE_PRIVATE_API_KEY`
-* Copy publishable key and copy that into `STRIPE_PUBLIC_API_KEY`
-* run docker compose up.
-
-```
-git clone https://github.com/billabear/hosting-docker-compose.git billabear
-cd billabear
-nano .env
-docker compose up -d
-
-
+* [DigitalOcean](./deploy_digitalocean)
+* [Docker Compose](./deploy_docker)
