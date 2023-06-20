@@ -9,7 +9,7 @@ When integrating with the API you need to provide an API key for all requests to
 
 To be able to toogle a customer's status the BillaBear admin system you will need to have a ROLE of developer or higher.
 
-[Check the user roles here.](../user_roles/)
+[Check the user roles here.](../../user/user_roles/)
 
 ## How To
 
