@@ -49,3 +49,15 @@ To show prices that are managed by BillaBear [GET /api/v1/product/{productId}/pr
 ### To List Products
 
 To show products that are managed by BillaBear [GET /api/v1/product](https://swagger.billabear.com/#tag/Products/operation/listProduct)
+
+### Create Subscription
+
+To create a subscription you can use [GET /api/v1/customer/{customerId}/subscription/start](https://swagger.billabear.com/#tag/Subscriptions/operation/customerStartSubscription)
+
+### Rest of the functionality
+
+Check out https://swagger.billabear.com.
+
+### Request functionality
+
+You can request a feature via https://github.com/billabear/billabear/discussions/categories/ideas
