@@ -1,7 +1,7 @@
 ---
 title: Commands
 sidebar_label: Commands
-sidebar_position: 1
+sidebar_position: 10
 ---
 There are several command that can be run to help run and administrate the application. 
 
