@@ -29,3 +29,8 @@ There are several parts of BillaBear that can be managed from the web applicatio
 ## Templates
 
 * [Email Template Variables](./templates/email_variables)
+* [Create Email Template](./templates/create_template)
+
+## Brand Settings
+
+* [Notification Settings](./brand_settings/notification_settings)

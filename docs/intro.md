@@ -15,10 +15,10 @@ There is also Swagger documentation that documents the API that is separate from
 
 ## Technical
 
-* Intro
+* [Intro](./technical/)
 
 
 ## User
 
-* Intro
-* Templates
+* [Intro](./user/)
+* [Templates](./user/templates)
