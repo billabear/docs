@@ -11,7 +11,7 @@ const config = {
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
-  url: 'https://billabear.com',
+  url: 'https://docs.billabear.com',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
   baseUrl: '/',
@@ -33,9 +33,11 @@ const config = {
       ({
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
+          routeBasePath: '/',
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
         },
+        blog: false,
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
         },
@@ -64,7 +66,7 @@ const config = {
             label: 'Start',
           },
           {
-            href: 'https://github.com/billabear',
+            href: 'https://github.com/billabear/billabear',
             label: 'GitHub',
             position: 'right',
           },
@@ -101,7 +103,7 @@ const config = {
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} Iain Cambridge. Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} Humbly Arrogant Software Limited. Built with Docusaurus.`,
       },
       prism: {
         theme: lightCodeTheme,
