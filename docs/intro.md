@@ -21,4 +21,32 @@ There is also Swagger documentation that documents the API that is separate from
 ## User
 
 * [Intro](./user/)
-* [Templates](./user/templates)
+* [User Roles](./user_roles/)
+
+### Subscriptions
+
+* [View Subscription](./subscriptions/view_subscription.md)
+* [Create Subscription](./subscriptions/create_subscription)
+* [Change Payment Method](./subscriptions/change_payment_details.md)
+* [Change Plan](./subscriptions/change_plan.md)
+* [Change Price](./subscriptions/change_price.md)
+* [Cancel Subscription](./subscriptions/cancellation.md)
+
+### Customers
+
+* [Create Customer](./customers/create)
+* [Search Customers](./customers/search_customers.md)
+* [Enable/Disable](./customers/enable_disable)
+
+### Templates
+
+* [Email Template Variables](./templates/email_variables)
+* [Create Email Template](./templates/create_template)
+
+### Brand Settings
+
+* [Notification Settings](./brand_settings/notification_settings)
+
+### Stripe
+
+* [Import Data](./stripe/import)

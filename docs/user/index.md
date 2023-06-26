@@ -34,3 +34,7 @@ There are several parts of BillaBear that can be managed from the web applicatio
 ## Brand Settings
 
 * [Notification Settings](./brand_settings/notification_settings)
+
+## Stripe
+
+* [Import Data](./stripe/import)
