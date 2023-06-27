@@ -21,32 +21,32 @@ There is also Swagger documentation that documents the API that is separate from
 ## User
 
 * [Intro](./user/)
-* [User Roles](./user_roles/)
+* [User Roles](./user/user_roles/)
 
 ### Subscriptions
 
-* [View Subscription](./subscriptions/view_subscription.md)
-* [Create Subscription](./subscriptions/create_subscription)
-* [Change Payment Method](./subscriptions/change_payment_details.md)
-* [Change Plan](./subscriptions/change_plan.md)
-* [Change Price](./subscriptions/change_price.md)
-* [Cancel Subscription](./subscriptions/cancellation.md)
+* [View Subscription](./user/subscriptions/view_subscription.md)
+* [Create Subscription](./user/subscriptions/create_subscription)
+* [Change Payment Method](./user/subscriptions/change_payment_details.md)
+* [Change Plan](./user/subscriptions/change_plan.md)
+* [Change Price](./user/subscriptions/change_price.md)
+* [Cancel Subscription](./user/subscriptions/cancellation.md)
 
 ### Customers
 
-* [Create Customer](./customers/create)
-* [Search Customers](./customers/search_customers.md)
-* [Enable/Disable](./customers/enable_disable)
+* [Create Customer](./user/customers/create)
+* [Search Customers](./user/customers/search_customers.md)
+* [Enable/Disable](./user/customers/enable_disable)
 
 ### Templates
 
-* [Email Template Variables](./templates/email_variables)
-* [Create Email Template](./templates/create_template)
+* [Email Template Variables](./user/templates/email_variables)
+* [Create Email Template](./user/templates/create_template)
 
 ### Brand Settings
 
-* [Notification Settings](./brand_settings/notification_settings)
+* [Notification Settings](./user/brand_settings/notification_settings)
 
 ### Stripe
 
-* [Import Data](./stripe/import)
+* [Import Data](./user/stripe/import)
