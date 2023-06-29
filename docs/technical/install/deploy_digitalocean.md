@@ -23,4 +23,4 @@ It's as easy as:
 
 
 
-You can watch a video of demostrating how easy it here - [ insert link later ]
+You can watch a video of demostrating how easy it here - https://youtu.be/cbInyGtqLCs
