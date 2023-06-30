@@ -5,7 +5,6 @@ sidebar_position: 6
 ---
 BillaBear allows you to manage refunds easily and keep track of who is issuing Refunds.
 
-
 ## Permissions
 
 To be able to toogle a customer's status the BillaBear admin system you will need to have a ROLE of customer support or higher.
