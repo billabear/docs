@@ -15,6 +15,16 @@ This log was starting
 
 * Add favicons
 
+## Version 1.0.2 - TBD
+
+### Improvements
+
+* Disable signups without invite code (frontend code already removed)
+
+### Bug Fixes
+
+* Fix user invite form not using the role provided
+
 ## Version 1.0.1 - 02.07.2023
 
 ### Improvements
