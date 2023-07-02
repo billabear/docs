@@ -5,13 +5,17 @@ sidebar_position: 1
 ---
 This log was starting
 
-## Version 1.1
+## Version 1.1 - TBD
 
-## Features
+### Features
 
 * TBD
 
-## Version 1.0.1
+### Improvements
+
+* Add favicons
+
+## Version 1.0.1 - 02.07.2023
 
 ### Improvements
 * Improve subscription creation not display payment type when customer billing type is invoice
