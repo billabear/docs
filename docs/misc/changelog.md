@@ -9,17 +9,18 @@ This log was starting
 
 ### Features
 
-* TBD
+* [API] added list payment details for customer
 
 ### Improvements
 
-* Add favicons
+* TBD
 
 ## Version 1.0.2 - TBD
 
 ### Improvements
 
 * Disable signups without invite code (frontend code already removed)
+* Add favicons
 
 ### Bug Fixes
 
