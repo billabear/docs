@@ -10,6 +10,7 @@ This log was starting
 ### Features
 
 * [API] added list payment details for customer
+* [APP] Add the ability to attach a customerless payment to a payment
 
 ### Improvements
 
