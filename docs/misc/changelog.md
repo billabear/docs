@@ -14,7 +14,7 @@ This log was starting
 
 ### Improvements
 
-* TBD
+* [APP] Improve UI consistency for customer view
 
 ## Version 1.0.2 - TBD
 
