@@ -10,13 +10,20 @@ This log was starting
 ### Features
 
 * [API] added list payment details for customer
-* [APP] Add the ability to attach a customerless payment to a payment
+* [APP] Add the ability to attach a customerless payment to a customer
 * [APP] Add a list of invited users
 * [APP] Add ability to get the invite URL for a user.
+* [APP] Add ability to give a subscription plan a code name
 
 ### Improvements
 
 * [APP] Improve UI consistency for customer view
+
+### Migration Notes
+
+Only important if you're not doing standard deployments.
+
+* Database change to subscription plan to add code name column
 
 ## Version 1.0.2 - TBD
 
