@@ -11,6 +11,8 @@ This log was starting
 
 * [API] added list payment details for customer
 * [APP] Add the ability to attach a customerless payment to a payment
+* [APP] Add a list of invited users
+* [APP] Add ability to get the invite URL for a user.
 
 ### Improvements
 
