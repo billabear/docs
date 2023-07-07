@@ -31,10 +31,13 @@ Only important if you're not doing standard deployments.
 
 * Disable signups without invite code (frontend code already removed)
 * Add favicons
+* Improve logging for production to write all logs to file
 
 ### Bug Fixes
 
 * Fix user invite form not using the role provided
+* Fix 500 when no customer address is sent via API on customer create
+* Fix 409 being sent when a customer with the same email exists
 
 ## Version 1.0.1 - 02.07.2023
 
