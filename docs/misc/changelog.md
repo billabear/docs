@@ -18,6 +18,7 @@ This log was starting
 ### Improvements
 
 * [APP] Improve UI consistency for customer view
+* [API] Make it possible to create subscriptions without subscription plan and price ids.
 
 ### Migration Notes
 
