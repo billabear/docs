@@ -1,6 +1,6 @@
 ---
-title: Subscription Creation Flow
-sidebar_label: Creation Flow
+title: Subscription Creation
+sidebar_label: Creation
 sidebar_position: 1
 ---
 The creation of a subscription can be done programattically via the API. Or it can be done manually via the web dashboard.
@@ -25,6 +25,11 @@ The purpose for creating a subscription with generic inputs is that it allows yo
 
 **Currency and Schedule** - This allows you to define the currency you want to create the subscription for and the payment schedule. BillaBear searches for a price that is public for that subscription plan that matches those inputs and uses that price. This allows you to change the price for a subscription without having to change the id used within your code/config and not have to fetch the prices when creating a subscription.
 
+### SDKs
+
+Currently there are the following SDKs for BillaBear with create subscription functionality.
+
+* [PHP SDK](https://github.com/billabear/php-sdk#start-subscription)
 
 ## Flow
 
