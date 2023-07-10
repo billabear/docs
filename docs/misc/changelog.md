@@ -26,7 +26,7 @@ Only important if you're not doing standard deployments.
 
 * Database change to subscription plan to add code name column
 
-## Version 1.0.2 - TBD
+## Version 1.0.2 - 10.07.2023
 
 ### Improvements
 
