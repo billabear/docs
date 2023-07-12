@@ -15,6 +15,7 @@ This log was starting
 * [APP] Add ability to get the invite URL for a user.
 * [APP] Add ability to give a subscription plan a code name
 * [APP] Add the ability to attach a customerless payment to a customer
+* [APP] Add the ability to choose between random invoice number and subseqential invoice number
 
 ### Improvements
 
