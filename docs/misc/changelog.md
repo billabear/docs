@@ -16,6 +16,7 @@ This log was starting
 * [APP] Add ability to give a subscription plan a code name
 * [APP] Add the ability to attach a customerless payment to a customer
 * [APP] Add the ability to choose between random invoice number and subseqential invoice number
+* [APP] Create a single invoice - one off items and/or subscription creation
 
 ### Improvements
 
