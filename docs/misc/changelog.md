@@ -16,7 +16,8 @@ This log was starting
 * [APP] Add ability to give a subscription plan a code name
 * [APP] Add the ability to attach a customerless payment to a customer
 * [APP] Add the ability to choose between random invoice number and subseqential invoice number
-* [APP] Create a single invoice - one off items and/or subscription creation
+* [APP] Add Create a single invoice - one off items and/or subscription creation
+* [APP] Add ability to assign customer specific tax rate
 
 ### Improvements
 
@@ -28,6 +29,14 @@ This log was starting
 Only important if you're not doing standard deployments.
 
 * Database change to subscription plan to add code name column
+* Database change to customer to add tax number, tax exempt, physical tax rate, and digital tax rate. 
+* Database change to invoice line to change column type to percentage
+
+## Version 1.0.3 - 15.07.2023
+
+## Bug Fixes
+
+* Fix invoice line vat percentage being boolean type instead of float
 
 ## Version 1.0.2 - 10.07.2023
 
