@@ -15,9 +15,9 @@ To be able to toogle a customer's status the BillaBear admin system you will nee
 
 You can set customer specific tax rates for physical and digital goods.
 
-Physical tax rate is for services and physical goods.
+Digital Tax Rate is for digital services.
 
-Digital Tax Rate is for digital goods.
+Standard tax rate is for everything but digital services. Only a few countries have specific tax for digital services.
 
 These rates with override all other tax rates.
 
