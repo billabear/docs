@@ -1,7 +1,7 @@
 ---
 title: Change Tax Settings
 sidebar_label: Tax Settings
-sidebar_position: 5
+sidebar_position: 1
 ---
 Changing the tax settings is something
 
