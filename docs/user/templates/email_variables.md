@@ -161,7 +161,7 @@ All variables described in general are available as well as the ones described b
 | invoice.biller_address.region | The region/state for the address | Renfrewshire |
 | invoice.biller_address.country | The country code for the address | GB |
 | invoice.biller_address.postcode | The post code for the address | PA5 1ND |
-| invoice.lines | array of lines | []
+| invoice.lines | array of lines | [] |
 | invoice.lines[0].total | Total | 100 |
 | invoice.lines[0].sub_total | Sub totals | 90 |
 | invoice.lines[0].tax_total | Tax Total | 10 |
