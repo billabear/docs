@@ -20,6 +20,7 @@ This log was starting
 * [APP] Add Create a single invoice - one off items and/or subscription creation
 * [APP] Add ability to assign customer specific tax rate
 * [APP] Add ability to create a quote for a customer
+* [APP] Add ability to assign a product a specific tax rate.
 
 
 ### Improvements
