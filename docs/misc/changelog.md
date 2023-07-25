@@ -9,6 +9,7 @@ This log was starting
 
 ### Features
 
+* [General] Added customer type - business or individual.
 * [API] added list payment details for customer
 * [API] Add customer subscription list endpoint
 * [APP] Add a list of invited users
@@ -19,6 +20,7 @@ This log was starting
 * [APP] Add Create a single invoice - one off items and/or subscription creation
 * [APP] Add ability to assign customer specific tax rate
 * [APP] Add ability to create a quote for a customer
+
 
 ### Improvements
 
