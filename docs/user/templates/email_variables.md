@@ -75,7 +75,7 @@ All variables described in general are available as well as the ones described b
 | payment.currency | The currency for the payment | EUR |
 | payment.description | The description for the payment | Subscription Payment |
 | receipt.total | The total amount for the receipt | 10.00 EUR |
-| receipt.vat_total | The VAT total amount for the receipt | 2.00 EUR |
+| receipt.tax_total | The VAT total amount for the receipt | 2.00 EUR |
 | receipt.sub_total | The sub total amount for the receipt | 8.00 EUR |
 
 ### Payment Card Expiring
@@ -145,7 +145,7 @@ All variables described in general are available as well as the ones described b
 | --- | --- | --- |  
 | invoice.total | The total for the invoice | 1000 |
 | invoice.sub_total | The sub total for the invoice | 800 |
-| invoice.vat_total | The vat total for the invoice | 200 |
+| invoice.tax_total | The tax total for the invoice | 200 |
 | invoice.currency | The currency for the invoice | EUR |
 | invoice.payee_address.company_name | The name of the company in the address | Humbly Arrogant Software Limited |
 | invoice.payee_address.street_line_one | The first line of the address | 1 Example Way |
@@ -164,6 +164,6 @@ All variables described in general are available as well as the ones described b
 | invoice.lines | array of lines | []
 | invoice.lines[0].total | Total | 100 |
 | invoice.lines[0].sub_total | Sub totals | 90 |
-| invoice.lines[0].vat_total | VAT Total | 10 |
-| invoice.lines[0].vat_percentage | The VAT percentage | 9.0 |
+| invoice.lines[0].tax_total | Tax Total | 10 |
+| invoice.lines[0].tax_percentage | The Tax percentage | 9.0 |
 | invoice.lines[0].description | The description for the line | An example line |

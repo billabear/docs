@@ -18,6 +18,7 @@ This log was starting
 * [APP] Add the ability to choose between random invoice number and subseqential invoice number
 * [APP] Add Create a single invoice - one off items and/or subscription creation
 * [APP] Add ability to assign customer specific tax rate
+* [APP] Add ability to create a quote for a customer
 
 ### Improvements
 
@@ -30,7 +31,7 @@ Only important if you're not doing standard deployments.
 
 * Database change to subscription plan to add code name column
 * Database change to customer to add tax number, tax exempt, physical tax rate, and digital tax rate. 
-* Database change to invoice line to change column type to percentage
+* Database change to invoice line to change column type to percentage, add columns tax_type
 
 ## Version 1.0.3 - 15.07.2023
 
