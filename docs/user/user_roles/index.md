@@ -48,6 +48,7 @@ Can do everything
 * Add payment details
 * Make payment details default
 * Delete payment details
+* Mark Invoice As Paid
 
 
 ## Standard User
