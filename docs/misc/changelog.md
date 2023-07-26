@@ -21,6 +21,7 @@ This log was starting
 * [APP] Add ability to assign customer specific tax rate
 * [APP] Add ability to create a quote for a customer
 * [APP] Add ability to assign a product a specific tax rate.
+* [General] Add ability to follow EU business tax rules or not
 
 
 ### Improvements
