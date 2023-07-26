@@ -32,6 +32,7 @@ Variables that are available in all emails templates.
 | Name | Description | Example |
 | --- | --- | --- |  
 | brand.name | Name of the brand | BilaBear |
+| brand.tax_number |The tax number for the brand/companu | GB45j5jf9 |
 | brand.address.company_name | The name of the company in the address | Humbly Arrogant Software Limited |
 | brand.address.street_line_one | The first line of the address | 1 Example Way |
 | brand.address.street_line_two | The second line of the address |  |
