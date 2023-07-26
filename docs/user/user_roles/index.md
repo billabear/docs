@@ -36,6 +36,8 @@ Can do everything
 * Add Features
 * Create subscription
 * Create Vouchers
+* Create Invoice
+* Create Quote
 
 ## Customer Support
 
