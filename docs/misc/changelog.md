@@ -25,6 +25,9 @@ This log was starting
 * [General] Add ability to follow EU business tax rules or not
 * [General] Add ability to assign default tax rate to brand
 * [Install] Add ability to assign default country during install
+* Add Webhook management
+* Add send webhook event for payment received
+* Add send webhook event for customer enabled
 
 
 ### Improvements
