@@ -20,3 +20,8 @@ When setting up your BillaBear infrastucture you may need to know the routing sc
 ## API
 
 `/api`
+
+## Portal
+
+`/portal` - for the frontend
+`/public` - for the backend
