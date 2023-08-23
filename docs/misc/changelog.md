@@ -9,25 +9,27 @@ This log was starting
 
 ### Features
 
-* [General] Added customer type - business or individual.
-* [API] added list payment details for customer
-* [API] Add customer subscription list endpoint
-* [APP] Add a list of invited users
-* [APP] Add ability to get the invite URL for a user.
-* [APP] Add ability to give a subscription plan a code name
-* [APP] Add the ability to attach a customerless payment to a customer
-* [APP] Add the ability to choose between random invoice number and subseqential invoice number
-* [APP] Add Create a single invoice - one off items and/or subscription creation
-* [APP] Add ability to assign customer specific tax rate
-* [APP] Add ability to create a quote for a customer
-* [APP] Add ability to assign a product a specific tax rate.
-* [APP] Add ability to mark invoice as paid.
-* [General] Add ability to follow EU business tax rules or not
-* [General] Add ability to assign default tax rate to brand
-* [Install] Add ability to assign default country during install
+* Added customer type - business or individual.
+* Added list payment details for customer
+* Add customer subscription list endpoint
+* Add a list of invited users
+* Add ability to get the invite URL for a user.
+* Add ability to give a subscription plan a code name
+* Add the ability to attach a customerless payment to a customer
+* Add the ability to choose between random invoice number and subseqential invoice number
+* Add Create a single invoice - one off items and/or subscription creation
+* Add ability to assign customer specific tax rate
+* Add ability to create a quote for a customer
+* Add ability to assign a product a specific tax rate.
+* Add ability to mark invoice as paid.
+* Add ability to follow EU business tax rules or not
+* Add ability to assign default tax rate to brand
+* Add ability to assign default country during install
 * Add Webhook management
 * Add send webhook event for payment received
 * Add send webhook event for customer enabled
+* Add send webhook event for customer disabled
+* Add send webhook event for subscription start
 
 
 ### Improvements
