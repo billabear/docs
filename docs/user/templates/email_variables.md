@@ -148,6 +148,7 @@ All variables described in general are available as well as the ones described b
 | invoice.sub_total | The sub total for the invoice | 800 |
 | invoice.tax_total | The tax total for the invoice | 200 |
 | invoice.currency | The currency for the invoice | EUR |
+| invoice.due_date | The due date for the invoice to be paid by | 2023-09-21 10:04:00.000 |
 | invoice.payee_address.company_name | The name of the company in the address | Humbly Arrogant Software Limited |
 | invoice.payee_address.street_line_one | The first line of the address | 1 Example Way |
 | invoice.payee_address.street_line_two | The second line of the address |  |
