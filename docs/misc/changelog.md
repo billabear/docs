@@ -5,6 +5,13 @@ sidebar_position: 1
 ---
 This log was starting
 
+## Version 1.1.2 - 11.09.2023
+
+* Add the ability to create a hosted checkout via the application
+* Add hosted checkout to the portal
+* Add create customer
+* Add per seat subscription
+
 ## Version 1.1.1 - 03.09.2023
 
 * Fix that subscription stats weren't changed when a quote was accepted
