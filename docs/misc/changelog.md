@@ -5,7 +5,17 @@ sidebar_position: 1
 ---
 This log was starting
 
-## Version 1.1 - TBD
+## Version 1.1.1 - 03.09.2023
+
+* Fix that subscription stats weren't changed when a quote was accepted
+* Fix VAT report page
+* Fix stripe webhook for payments when subscription started
+* Create a time-limited quote
+* Add due date to invoices
+* Send warning when invoice is not paid by the due date
+* Disable customer when invoice is not paid 30 days after the due date
+
+## Version 1.1 - 24.08.2023
 
 ### Features
 
