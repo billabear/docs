@@ -5,6 +5,10 @@ sidebar_position: 1
 ---
 This log was starting
 
+## Version 1.1.3 - 12.09.2023
+
+* Fix create checkout for subscriptions
+
 ## Version 1.1.2 - 11.09.2023
 
 * Add the ability to create a hosted checkout via the application
