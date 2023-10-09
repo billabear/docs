@@ -5,6 +5,23 @@ sidebar_position: 1
 ---
 This log was starting
 
+## Version 2023.04 - 09.10.2023
+
+* Change design
+* Change dashboard
+* Change subscription reports to pie charts
+* Add mass subscription change
+* Add churn stats chart
+* Add Cancellation Requests workflow management
+* Add Subscription Creation workflow management
+* Add Payment creation workflow management
+* Add Refund Creation Workflow management
+* Only show undeleted prices in subscription plan management
+* Add loading page to errors
+* Add subscription seat API endpoint
+* Add changing subscription seats to change subscription UI
+
+
 ## Version 1.1.3 - 12.09.2023
 
 * Fix create checkout for subscriptions
