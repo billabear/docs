@@ -7,7 +7,7 @@ Mass changing subscriptions is a common task that companies need to need infrequ
 
 ## Permissions
 
-To be able to create subscription for a customer via the BillaBear admin system you will need to have a ROLE of Account Manager or higher.
+To be able to mass change subscription via the BillaBear admin system you will need to have a ROLE of Account Manager or higher.
 
 [Check the user roles here.](../user_roles/)
 

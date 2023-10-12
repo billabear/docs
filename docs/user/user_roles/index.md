@@ -38,6 +38,8 @@ Can do everything
 * Create Vouchers
 * Create Invoice
 * Create Quote
+* Mass Subscription Change
+* Workflow Management
 
 ## Customer Support
 
