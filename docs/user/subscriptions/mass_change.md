@@ -19,6 +19,13 @@ You're able to set new values of Plan and Price.
 
 When you change a price you'll be told of the change to the MRR.
 
+Once a mass change has been created you're able to export the customer list to CSV. This will allow you to notify the customers via a email blast.
+
+## Video
+
+[![Watch the video](https://img.youtube.com/vi/1Jq6-GZ1t0M/mqdefault.jpg)](https://youtu.be/1Jq6-GZ1t0M)
+
+
 ## How To
 
 ### 1. Click Subscription
