@@ -1,7 +1,7 @@
 ---
 title: Mass Change Subscriptions
 sidebar_label: Mass Change
-sidebar_position: 7
+sidebar_position: 8
 ---
 Mass changing subscriptions is a common task that companies need to need infrequently.
 
