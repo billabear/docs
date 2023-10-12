@@ -30,7 +30,7 @@ Once a mass change has been created you're able to export the customer list to C
 
 ### 1. Click Subscription
 
-![Click Subscriptions](./mass_change_screenshot/1_click_subscriptions.png)
+![Click Subscriptions](./mass_change_screenshots/1_click_subscriptions.png)
 
 ### 2. Click Mass Change
 
