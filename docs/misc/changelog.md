@@ -10,6 +10,7 @@ This log was starting
 * Add PDF generation settings
 * Add download pdf to invoice view
 * Add Lifetime Value report 
+* Add change back creation workflow management
 
 ## Version 2023.04.01 - 09.10.2023
 
