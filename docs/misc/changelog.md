@@ -5,7 +5,13 @@ sidebar_position: 1
 ---
 This log was starting
 
-## Version 2023.04 - 09.10.2023
+## Version 2023.04.02 - TBD
+
+* Add PDF generation settings
+* Add download pdf to invoice view
+* Add Lifetime Value report 
+
+## Version 2023.04.01 - 09.10.2023
 
 * Change design
 * Change dashboard
