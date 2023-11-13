@@ -5,7 +5,7 @@ sidebar_position: 1
 ---
 This log was starting
 
-## Version 2023.04.02 - TBD
+## Version 2023.04.02 - 13.11.2023
 
 * Add PDF generation settings
 * Add download pdf to invoice view
