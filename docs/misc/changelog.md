@@ -5,6 +5,10 @@ sidebar_position: 1
 ---
 This log was starting
 
+## Version 2023.04.03 - TBD
+
+* Fix broken link on payment creation workflow page
+
 ## Version 2023.04.02 - 13.11.2023
 
 * Add PDF generation settings
