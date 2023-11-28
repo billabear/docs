@@ -15,7 +15,7 @@ The Stripe Subscription Interopability layer is to allow you to continue using t
 | price | yes | Filter for subscriptions that contain this recurring price ID. |
 | status | no | The status of the subscriptions to retrieve. Passing in a value of canceled will return all canceled subscriptions, including those belonging to deleted customers. Pass ended to find subscriptions that are canceled and subscriptions that are expired due to incomplete payment. Passing in a value of all will return subscriptions of all statuses. If no value is supplied, all subscriptions that have not been canceled are returned. |
 | automatic_tax | no | Filter subscriptions by their automatic tax settings. |
-| collection_method | no | The collection method of the subscriptions to retrieve. Either charge_automatically or send_invoice. |
+| collection_method | yes | The collection method of the subscriptions to retrieve. Either charge_automatically or send_invoice. |
 | created | yes | A filter on the list based on the object created field. The value can be a string with an integer Unix timestamp, or it can be a dictionary with the following options: |
 | current_period_end | yes | A filter on the list based on the object current_period_end field. The value can be a string with an integer Unix timestamp, or it can be a dictionary with the following options: |
 | current_period_start | yes | A filter on the list based on the object current_period_start field. The value can be a string with an integer Unix timestamp, or it can be a dictionary with the following options: |
