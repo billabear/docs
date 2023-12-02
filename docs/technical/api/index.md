@@ -45,3 +45,49 @@ You can find the REST api docs at https://swagger.billabear.com
 | List Customers | <img src="/img/tick.svg" alt="Tick" width="25"/>  | <img src="/img/cross.svg" alt="Cross" width="25"/> | 
 | Read Customer | <img src="/img/tick.svg" alt="Tick" width="25"/>  | <img src="/img/cross.svg" alt="Cross" width="25"/> | 
 | Update Customer | <img src="/img/tick.svg" alt="Tick" width="25"/>  | <img src="/img/cross.svg" alt="Cross" width="25"/> | 
+
+### Payment Methods
+
+| Feature | REST API | Stripe Interopt |
+| --- | ---- | --- |
+| Delete Payment Method | <img src="/img/tick.svg" alt="Tick" width="25"/>  | <img src="/img/cross.svg" alt="Cross" width="25"/> | 
+| List Payment Methods | <img src="/img/tick.svg" alt="Tick" width="25"/>  | <img src="/img/cross.svg" alt="Cross" width="25"/> | 
+| Create Payment Method | <img src="/img/tick.svg" alt="Tick" width="25"/>  | <img src="/img/cross.svg" alt="Cross" width="25"/> | 
+
+### Payments
+
+| Feature | REST API | Stripe Interopt |
+| --- | ---- | --- |
+| List Payments | <img src="/img/tick.svg" alt="Tick" width="25"/>  | <img src="/img/cross.svg" alt="Cross" width="25"/> | 
+| Refund Payment | <img src="/img/tick.svg" alt="Tick" width="25"/>  | <img src="/img/cross.svg" alt="Cross" width="25"/> | 
+| List Customer Payments | <img src="/img/tick.svg" alt="Tick" width="25"/>  | <img src="/img/cross.svg" alt="Cross" width="25"/> | 
+
+### Price 
+
+| Feature | REST API | Stripe Interopt |
+| --- | ---- | --- |
+| List Prices | <img src="/img/tick.svg" alt="Tick" width="25"/>  | <img src="/img/cross.svg" alt="Cross" width="25"/> | 
+| Create Price | <img src="/img/tick.svg" alt="Tick" width="25"/>  | <img src="/img/cross.svg" alt="Cross" width="25"/> | 
+
+### Product 
+
+| Feature | REST API | Stripe Interopt |
+| --- | ---- | --- |
+| Create Product | <img src="/img/tick.svg" alt="Tick" width="25"/>  | <img src="/img/cross.svg" alt="Cross" width="25"/> | 
+| List Product | <img src="/img/tick.svg" alt="Tick" width="25"/>  | <img src="/img/cross.svg" alt="Cross" width="25"/> | 
+| Update Product | <img src="/img/tick.svg" alt="Tick" width="25"/>  | <img src="/img/cross.svg" alt="Cross" width="25"/> | 
+| View Product | <img src="/img/tick.svg" alt="Tick" width="25"/>  | <img src="/img/cross.svg" alt="Cross" width="25"/> | 
+
+### Refunds 
+
+| Feature | REST API | Stripe Interopt |
+| --- | ---- | --- |
+| List Refunds | <img src="/img/tick.svg" alt="Tick" width="25"/>  | <img src="/img/cross.svg" alt="Cross" width="25"/> | 
+| View Customer Refunds | <img src="/img/tick.svg" alt="Tick" width="25"/>  | <img src="/img/cross.svg" alt="Cross" width="25"/> | 
+| View Refund | <img src="/img/tick.svg" alt="Tick" width="25"/>  | <img src="/img/cross.svg" alt="Cross" width="25"/> |
+
+### Vouchers
+
+| Feature | REST API | Stripe Interopt |
+| --- | ---- | --- |
+| Apply Voucher | <img src="/img/tick.svg" alt="Tick" width="25"/>  | <img src="/img/cross.svg" alt="Cross" width="25"/> | 
