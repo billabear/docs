@@ -5,7 +5,7 @@ sidebar_position: 1
 ---
 The Stripe Subscription Interopability layer is to allow you to continue using the same code you're using to create subscriptions using Stripe Billing.
 
-## List
+## List - GET - v1/subscriptions/
 
 ### Parameters
 
@@ -23,3 +23,14 @@ The Stripe Subscription Interopability layer is to allow you to continue using t
 | limit | yes | A limit on the number of objects to be returned. Limit can range between 1 and 100, and the default is 10. |
 | starting_after | yes | A cursor for use in pagination. starting_after is an object ID that defines your place in the list. For instance, if you make a list request and receive 100 objects, ending with obj_foo, your subsequent call can include starting_after=obj_foo in order to fetch the next page of the list. |
 | test_clock | no | Filter for subscriptions that are associated with the specified test clock. The response will not include subscriptions with test clocks if this and the customer parameter is not set. |
+
+## Cancel - DELETE - v1/subscriptions/
+
+### Request Body Parameters
+
+| Name | Supported | Description |
+| --- | --- | --- |
+| invoice_now | no | Will generate a final invoice that invoices for any un-invoiced metered usage and new/pending proration invoice items. |
+| prorate | yes | Will generate a proration invoice item that credits remaining unused time until the subscription period end. |
+| cancellation_details.comment | yes | Additional comments about why the user canceled the subscription, if the subscription was canceled explicitly by the user.
+| cancellation_details.feedback | no | The customer submitted reason for why they canceled, if the subscription was canceled explicitly by the user. |
