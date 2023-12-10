@@ -5,9 +5,10 @@ sidebar_position: 1
 ---
 This log was starting
 
-## Version 2023.04.03 - TBD
+## Version 2024.01.01 - TBD
 
 * Fix broken link on payment creation workflow page
+* Add create checkout API endpoint
 
 ## Version 2023.04.02 - 13.11.2023
 
