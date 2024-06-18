@@ -5,6 +5,8 @@ sidebar_position: 1
 ---
 Here you can find the template variables for slack notitifactions.
 
+The format in the templates to use a variable is ``{{variable.name}}``.
+
 ## Customer Created
 
 | Name | Description | Example |
