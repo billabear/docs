@@ -27,6 +27,7 @@ Can do everything
 * System Settings
 * Notification Settings
 
+
 ## Account Manager
 
 * Create Customer
@@ -40,6 +41,7 @@ Can do everything
 * Create Quote
 * Mass Subscription Change
 * Workflow Management
+* Slack Notifications
 
 ## Customer Support
 
