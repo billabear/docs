@@ -75,3 +75,48 @@ The format in the templates to use a variable is ``{{variable.name}}``.
 | subscription.seats_number | The number of seats for the plan | 4 |
 | subscrtipion.start_date | The start date of the subscription |  |
 | subscrtipion.valid_until | The end date of the subscription |  |
+
+## Trial Started
+
+| Name | Description | Example |
+| --- | --- | --- |  
+| customer.id | The ID of the customer | `6edfd773-6772-4607-b869-4f10622c948b` |
+| customer.email | The email of the customer | `invoices@example.org` |
+| customer.brand | The brand of the customer | `default` |
+| customer.billing_type | How the customer is billed | `invoice` or `card` |
+| customer.customer_type | If the customer is a business or a sole indivual | `business` |
+| subscription.id | The ID of the subscription | `c15fe43c-94af-4cd2-baa2-1eefc724a03c` |
+| subscription.plan_name | The name of the plan | `cool_plan` |
+| subscription.seats_number | The number of seats for the plan | 4 |
+| subscrtipion.start_date | The start date of the subscription |  |
+| subscrtipion.valid_until | The end date of the subscription |  |
+
+## Trial Ended
+
+| Name | Description | Example |
+| --- | --- | --- |  
+| customer.id | The ID of the customer | `6edfd773-6772-4607-b869-4f10622c948b` |
+| customer.email | The email of the customer | `invoices@example.org` |
+| customer.brand | The brand of the customer | `default` |
+| customer.billing_type | How the customer is billed | `invoice` or `card` |
+| customer.customer_type | If the customer is a business or a sole indivual | `business` |
+| subscription.id | The ID of the subscription | `c15fe43c-94af-4cd2-baa2-1eefc724a03c` |
+| subscription.plan_name | The name of the plan | `cool_plan` |
+| subscription.seats_number | The number of seats for the plan | 4 |
+| subscrtipion.start_date | The start date of the subscription |  |
+| subscrtipion.valid_until | The end date of the subscription |  |
+
+## Trial Extended
+
+| Name | Description | Example |
+| --- | --- | --- |  
+| customer.id | The ID of the customer | `6edfd773-6772-4607-b869-4f10622c948b` |
+| customer.email | The email of the customer | `invoices@example.org` |
+| customer.brand | The brand of the customer | `default` |
+| customer.billing_type | How the customer is billed | `invoice` or `card` |
+| customer.customer_type | If the customer is a business or a sole indivual | `business` |
+| subscription.id | The ID of the subscription | `c15fe43c-94af-4cd2-baa2-1eefc724a03c` |
+| subscription.plan_name | The name of the plan | `cool_plan` |
+| subscription.seats_number | The number of seats for the plan | 4 |
+| subscrtipion.start_date | The start date of the subscription |  |
+| subscrtipion.valid_until | The end date of the subscription |  |
