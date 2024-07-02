@@ -5,6 +5,7 @@ sidebar_position: 6
 ---
 BillaBear supports sending internal notification to internal services via webhooks.
 
+
 ## Payment Received
 
 ```json
@@ -133,4 +134,53 @@ BillaBear supports sending internal notification to internal services via webhoo
         status: "active"
     }
 }
+```
+
+## Plan Created
+
+```json
+{
+    plan: "plan_created",
+    plan: {
+        id: "uuid-for-plan",
+        name: "Name Of Plan",
+        code: "code_for_plan",
+        has_trial: false,
+        trial_length_in_days: null,
+        standalone_trial: false
+    },
+}
+
+```
+## Plan Updated
+
+```json
+{
+    plan: "plan_updated",
+    plan: {
+        id: "uuid-for-plan",
+        name: "Name Of Plan",
+        code: "code_for_plan",
+        has_trial: false,
+        trial_length_in_days: null,
+        standalone_trial: false
+    },
+}
+
+```
+## Plan Deleted
+
+```json
+{
+    plan: "plan_deleted",
+    plan: {
+        id: "uuid-for-plan",
+        name: "Name Of Plan",
+        code: "code_for_plan",
+        has_trial: false,
+        trial_length_in_days: null,
+        standalone_trial: false
+    },
+}
+
 ```
