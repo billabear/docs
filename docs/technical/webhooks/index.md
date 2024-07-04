@@ -48,6 +48,19 @@ BillaBear supports sending internal notification to internal services via webhoo
     }
 }
 ```
+## Customer Updated
+
+```json
+{
+    type: "customer_updated",
+    customer: {
+        id: "uuid-for-customer",
+        email: "iain.cambridge@example.org",
+        brand: "default",
+        is_disabled: false
+    }
+}
+```
 
 ## Customer Disable
 
