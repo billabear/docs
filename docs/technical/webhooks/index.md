@@ -113,6 +113,7 @@ BillaBear supports sending internal notification to internal services via webhoo
     }
 }
 ```
+
 ## Subscription Cancelled
 
 ```json
