@@ -5,10 +5,32 @@ sidebar_position: 1
 ---
 This log was starting
 
-## Version 2024.01.01 - TBD
+## Version 2024.02.01 - xx.12.2024
+
+* Added VAT Sense integration 
+* Added invoice delivery methods
+* Added Invoice formating to include ZUGfERD
+
+## Version 2024.01.03 - 24.07.2024
+
+* Fixed subscription view when viewing a standalone trial
+* Fixed forgot password email recovery failing due to missing template
+
+## Version 2024.01.02 - 23.07.2024
+
+* Filter sensitive info from logs
+* Fix invoice generation for products that have a tax rate instead of tax type
+* Fix trial started slack notification not being sent
+* Fix trial converted slack notification to being created
+
+## Version 2024.01.01 - 21.07.2024
 
 * Fix broken link on payment creation workflow page
 * Add create checkout API endpoint
+* Add tax report page
+* Add country managment and tax data
+* Add workflow pages and edit workflows
+* Add Slack Integration
 
 ## Version 2023.04.02 - 13.11.2023
 
