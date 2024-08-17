@@ -10,6 +10,7 @@ This log was starting
 * Added VAT Sense integration 
 * Added invoice delivery methods
 * Added Invoice formating to include ZUGfERD
+* Removed creating products and prices into Stripe's catalog - Causes problems with demo/test data and no one has ever asked for it.
 
 ## Version 2024.01.03 - 24.07.2024
 
