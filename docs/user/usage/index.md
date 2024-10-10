@@ -10,6 +10,7 @@ How it works is that you have metrics and you then create events reporting new u
 # Parts
 
 * [Metrics](./metrics)
+* [Aggregation Methods](./aggregation_methods)
 * Usage Estimate Costs
 * Pricing Models
 * Events
