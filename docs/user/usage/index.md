@@ -11,6 +11,5 @@ How it works is that you have metrics and you then create events reporting new u
 
 * [Metrics](./metrics)
 * [Aggregation Methods](./aggregation_methods)
-* Usage Estimate Costs
-* Pricing Models
+* [Usage Estimate Costs](./usage_estimate_costs)
 * [Events](./events)

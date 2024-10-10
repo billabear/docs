@@ -1,7 +1,7 @@
 ---
 title: Metric Aggreation Methods
 sidebar_label: Aggreation Methods
-sidebar_position: 4
+sidebar_position: 3
 ---
 Metrics can be aggregated in various methods, depending on the way your aggregate your methods will depend on what the metric usage value is. 
 
