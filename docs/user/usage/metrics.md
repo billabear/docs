@@ -13,12 +13,6 @@ The role `ROLE_ACCOUNT_MANAGER` is required to create/edit Metrics.
 
 To create/edit a metric you need to define
 
-* Name
-* Code
-* Aggregation Method
-* Ingestion
-* Filters
-
 | Field | Description |
 | ---   | ---         |
 | Name  | The name of the metric |
