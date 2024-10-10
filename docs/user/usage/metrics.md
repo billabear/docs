@@ -19,5 +19,6 @@ To create/edit a metric you need to define
 | Code  | The code for the metric that is to be used for API Requests |
 | Aggregation Method | How the metric events should be aggregated into a value |
 | Ingestion          | How the data should be ingested |
+| Filters            | If you want to filter events you can add data you the event property and you can choose between inclusive and exclusive filters to decide if you want to filter out values or filter by value |
 
 ![Create Metric](./metric_screenshots/create_screenshot.png)
