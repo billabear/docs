@@ -35,7 +35,7 @@ If the customer is using 50 seats. They pay 1000.00. If the customer is 250 then
 
 Tiers are per seat for between 1 to 100 units it's 10.00, for between 101 to 200 units it's 7.50. And above 201 it's 5.
 
-If the customer is uing 50 seats then it's 50*10.00 which is 500.00. If the customer is using 150 then it's 199*7.50 which is 1492.50. If the customer is using 201 seats then it's 201*5 1005.00.
+If the customer is uing 50 seats then it's `50*10.00` which is 500.00. If the customer is using 150 then it's `199*7.50` which is 1492.50. If the customer is using 201 seats then it's `201*5` 1005.00.
 
 # Tier Graduated
 
@@ -51,4 +51,4 @@ If the customer is using 150 seats then they pay 1000.00 for the first 100 and t
 
 Tiers are per seat for between 1 to 100 units it's 10.00, for between 101 to 200 units it's 7.50. And above 201 it's 5.
 
-If the customer is using 250 seats then it works out at (100 * 10.00) + (100 * 7.50) + (50 * 5) which is 2000.00. 100*100 is 1000.00. 100*7.50 is 750. And 50 * 5 is 250. 
+If the customer is using 250 seats then it works out at `(100 * 10.00) + (100 * 7.50) + (50 * 5)` which is 2000.00. `100*100` is 1000.00. `100*7.50` is 750. And `50*5` is 250. 
