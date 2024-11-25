@@ -9,13 +9,14 @@ This log was starting
 
 * Added VAT Sense integration 
 * Added invoice delivery methods
-* Added Invoice formating to include ZUGfERD
+* Added Invoice formating to include ZUGFeRDv1 and ZUGFeRDv2
 * Removed creating products and prices into Stripe's catalog - Causes problems with demo/test data and no one has ever asked for it.
 * Added the package pricing
 * Added tiered volume pricing
 * Added tiered graduated pricing
 * Added usaged based pricing
 * Change from Postgres to TimescaleDB
+* Dropped support for PHP 8.2
 
 ## Version 2024.01.03 - 24.07.2024
 
