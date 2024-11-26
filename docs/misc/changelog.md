@@ -17,6 +17,8 @@ This log was starting
 * Added usaged based pricing
 * Change from Postgres to TimescaleDB
 * Dropped support for PHP 8.2
+* Added link from payment to payment card
+* Added support contact details to brand
 
 ## Version 2024.01.03 - 24.07.2024
 
