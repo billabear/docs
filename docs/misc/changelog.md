@@ -17,6 +17,7 @@ This log was starting
 * Added usaged based pricing
 * Change from Postgres to TimescaleDB
 * Dropped support for PHP 8.2
+* Added support for PHP 8.4
 * Added link from payment to payment card
 * Added support contact details to brand
 * Added Portuguese translations
