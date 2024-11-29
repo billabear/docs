@@ -20,6 +20,7 @@ This log was starting
 * Added link from payment to payment card
 * Added support contact details to brand
 * Added Portuguese translations
+* Upgraded to Symfony 7.2
 
 ## Version 2024.01.03 - 24.07.2024
 
