@@ -8,7 +8,7 @@ This log was starting
 ## Version 2024.02.01 - xx.12.2024
 
 * Added VAT Sense integration 
-* Added invoice delivery methods
+* Added invoice delivery methods to include SFTP and Webhooks alongside email
 * Added Invoice formating to include ZUGFeRDv1 and ZUGFeRDv2
 * Removed creating products and prices into Stripe's catalog - Causes problems with demo/test data and no one has ever asked for it.
 * Added the package pricing
