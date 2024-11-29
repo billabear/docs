@@ -7,6 +7,7 @@ This log was starting
 
 ## Version 2024.02.01 - xx.12.2024
 
+* Change layout
 * Added VAT Sense integration 
 * Added invoice delivery methods to include SFTP and Webhooks alongside email
 * Added Invoice formating to include ZUGFeRDv1 and ZUGFeRDv2
