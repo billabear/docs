@@ -24,7 +24,9 @@ This log was starting
 * Added Portuguese translations
 * Upgraded to Symfony 7.2
 * Added latest customer list to dashboard
-* Added subscription events (activate, churn, reactivate, upgrade)
+* Added subscription events (activate, churn, reactivate, upgrade) to customer view
+* Added latest subscription events to dashboard
+* Added latest payments to dashboard
 
 ## Version 2024.01.03 - 24.07.2024
 
