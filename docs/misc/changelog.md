@@ -23,6 +23,8 @@ This log was starting
 * Added support contact details to brand
 * Added Portuguese translations
 * Upgraded to Symfony 7.2
+* Added latest customer list to dashboard
+* Added subscription events (activate, churn, reactivate, upgrade)
 
 ## Version 2024.01.03 - 24.07.2024
 
