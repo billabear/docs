@@ -27,6 +27,7 @@ This log was starting
 * Added subscription events (activate, churn, reactivate, upgrade) to customer view
 * Added latest subscription events to dashboard
 * Added latest payments to dashboard
+* Added usage limits to customers - disable and warn
 
 ## Version 2024.01.03 - 24.07.2024
 
