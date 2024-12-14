@@ -28,6 +28,9 @@ This log was starting
 * Added latest subscription events to dashboard
 * Added latest payments to dashboard
 * Added usage limits to customers - disable and warn
+* Added a Symfony event for Customer Created
+* Added a Symfony event for Customer Enabled
+* Added a Symfony event for Customer Disabled
 
 ## Version 2024.01.03 - 24.07.2024
 
