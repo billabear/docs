@@ -11,7 +11,7 @@ This is triggered when a customer is created.
 
 | Name | Constant For Name |
 | --- | --- |
-| billabear.customer.created | `BillaBear\Entity\Customer::NAME` |
+| billabear.customer.created | `BillaBear\Event\Customer\CustomerCreated::NAME` |
 
 ### Event Class
 
