@@ -19,8 +19,9 @@ This is triggered when a customer is created.
 namespace BillaBear\Event\Customer;
 
 use BillaBear\Entity\Customer;
+use Symfony\Contracts\EventDispatcher\Event;
 
-class CustomerCreated
+class CustomerCreated extends Event
 {
     public const string NAME = 'billabear.customer.created';
 
@@ -44,8 +45,9 @@ This is triggered when a customer is disabled.
 namespace BillaBear\Event\Customer;
 
 use BillaBear\Entity\Customer;
+use Symfony\Contracts\EventDispatcher\Event;
 
-class CustomerDisabled
+class CustomerDisabled extends Event
 {
     public const string NAME = 'billabear.customer.disabled';
 
@@ -69,8 +71,9 @@ This is triggered when a disabled customer is enabled again
 namespace BillaBear\Event\Customer;
 
 use BillaBear\Entity\Customer;
+use Symfony\Contracts\EventDispatcher\Event;
 
-class CustomerEnabled
+class CustomerEnabled extends Event
 {
     public const string NAME = 'billabear.customer.enabled';
 
