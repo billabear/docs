@@ -5,7 +5,7 @@ sidebar_position: 1
 ---
 This log was starting
 
-## Version 2024.02.01 - xx.12.2024
+## Version 2025.01.01 - xx.01.2025
 
 * Change layout
 * Added VAT Sense integration 
@@ -31,6 +31,9 @@ This log was starting
 * Added a Symfony event for Customer Created
 * Added a Symfony event for Customer Enabled
 * Added a Symfony event for Customer Disabled
+* Added company name to customer list view
+* Added company name to customer filter on app list view
+* Added company name to customer filter on api
 
 ## Version 2024.01.03 - 24.07.2024
 
