@@ -7,7 +7,7 @@ This log was starting
 
 ## Version 2025.01.01 - xx.01.2025
 
-## UI
+### UI
 
 * Change layout
 * Added latest customer list to dashboard
@@ -17,7 +17,7 @@ This log was starting
 * Added latest subscription events to dashboard
 * Added latest payments to dashboard
 
-## Developer
+### Developer
 
 * Change from Postgres to TimescaleDB
 * Dropped support for PHP 8.2
@@ -28,7 +28,7 @@ This log was starting
 * Added a Symfony event for Customer Disabled
 * Upgraded to Symfony 7.2
 
-## Functionality
+### Functionality
 
 * Added invoice delivery methods to include SFTP and Webhooks alongside email
 * Added Invoice formating to include ZUGFeRDv1 and ZUGFeRDv2
@@ -42,7 +42,7 @@ This log was starting
 * Added company name to customer filter on api
 * Added support contact details to brand
 
-## Integrations
+### Integrations
 
 * Added VAT Sense integration 
 
