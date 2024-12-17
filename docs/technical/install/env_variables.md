@@ -13,3 +13,5 @@ There are some Enviorment Variables that must be set and some that can be overri
 | DATABASE_URL | The DSN for database accesss |
 | MESSENGER_TRANSPORT_DSN | Symfony Messenger DSN for if you're changing the background processing messenger |
 | MAILER_DSN | The Symfony Mailer DSN which is used for the System Email settings. |
+| XERO_CLIENT_ID | The Client ID for the Xero App |
+| XERO_CLIENT_SECRET | The client secret for the Xero App |
