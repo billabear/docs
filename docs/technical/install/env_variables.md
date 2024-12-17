@@ -15,3 +15,6 @@ There are some Enviorment Variables that must be set and some that can be overri
 | MAILER_DSN | The Symfony Mailer DSN which is used for the System Email settings. |
 | XERO_CLIENT_ID | The Client ID for the Xero App |
 | XERO_CLIENT_SECRET | The client secret for the Xero App |
+| ROLLBAR_ENABLED | true or false if Rollbar error logging is enabled |
+| ROLLBAR_API_KEY | Rollbar's API Key |
+| ROLLBAR_ENV | The environment you want to report to Rollbar as  |
