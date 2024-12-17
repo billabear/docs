@@ -7,33 +7,46 @@ This log was starting
 
 ## Version 2025.01.01 - xx.01.2025
 
+## UI
+
 * Change layout
-* Added VAT Sense integration 
-* Added invoice delivery methods to include SFTP and Webhooks alongside email
-* Added Invoice formating to include ZUGFeRDv1 and ZUGFeRDv2
-* Removed creating products and prices into Stripe's catalog - Causes problems with demo/test data and no one has ever asked for it.
-* Added the package pricing
-* Added tiered volume pricing
-* Added tiered graduated pricing
-* Added usaged based pricing
+* Added latest customer list to dashboard
+* Added company name to customer list view
+* Added Portuguese translations
+* Added subscription events (activate, churn, reactivate, upgrade) to customer view
+* Added latest subscription events to dashboard
+* Added latest payments to dashboard
+
+## Developer
+
 * Change from Postgres to TimescaleDB
 * Dropped support for PHP 8.2
 * Added support for PHP 8.4
 * Added link from payment to payment card
-* Added support contact details to brand
-* Added Portuguese translations
-* Upgraded to Symfony 7.2
-* Added latest customer list to dashboard
-* Added subscription events (activate, churn, reactivate, upgrade) to customer view
-* Added latest subscription events to dashboard
-* Added latest payments to dashboard
-* Added usage limits to customers - disable and warn
 * Added a Symfony event for Customer Created
 * Added a Symfony event for Customer Enabled
 * Added a Symfony event for Customer Disabled
-* Added company name to customer list view
+* Upgraded to Symfony 7.2
+
+## Functionality
+
+* Added invoice delivery methods to include SFTP and Webhooks alongside email
+* Added Invoice formating to include ZUGFeRDv1 and ZUGFeRDv2
+* Added the package pricing
+* Added tiered volume pricing
+* Added tiered graduated pricing
+* Added usaged based pricing
+* Removed creating products and prices into Stripe's catalog - Causes problems with demo/test data and no one has ever asked for it.
+* Added usage limits to customers - disable and warn
 * Added company name to customer filter on app list view
 * Added company name to customer filter on api
+* Added support contact details to brand
+
+## Integrations
+
+* Added VAT Sense integration 
+
+
 
 ## Version 2024.01.03 - 24.07.2024
 
