@@ -47,6 +47,7 @@ BillaBear gives you complete control over your invoice and receipt PDFs. Allowin
 | invoice.lines[0].vat_total | VAT Total | 10 |
 | invoice.lines[0].vat_percentage | The VAT percentage | 9.0 |
 | invoice.lines[0].description | The description for the line | An example line |
+| invoice.lines[0].metadata | An array of metadata relating to the line |  |
 
 ## Receipt Templates
 
@@ -89,3 +90,4 @@ BillaBear gives you complete control over your invoice and receipt PDFs. Allowin
 | receipt.lines[0].vat_total | VAT Total | 10 |
 | receipt.lines[0].vat_percentage | The VAT percentage | 9.0 |
 | receipt.lines[0].description | The description for the line | An example line |
+| receipt.lines[0].metadata | An array of metadata relating to the line |  |
