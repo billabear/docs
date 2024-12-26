@@ -42,7 +42,8 @@ This log was starting
 * Added company name to customer filter on app list view
 * Added company name to customer filter on api
 * Added support contact details to brand
-* Added functionality to validate if stripe is configured when creating a customer
+* Added functionality to validate if stripe is configured when creating a customer via API
+* Added functionality to validate if stripe is configured when creating a customer via APP
 
 ### Integrations
 
