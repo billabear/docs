@@ -16,6 +16,7 @@ This log was starting
 * Added subscription events (activate, churn, reactivate, upgrade) to customer view
 * Added latest subscription events to dashboard
 * Added latest payments to dashboard
+* Re-added warning bar that Stripe must be configured to use BillaBear
 
 ### Developer
 
@@ -41,6 +42,7 @@ This log was starting
 * Added company name to customer filter on app list view
 * Added company name to customer filter on api
 * Added support contact details to brand
+* Added functionality to validate if stripe is configured when creating a customer
 
 ### Integrations
 
