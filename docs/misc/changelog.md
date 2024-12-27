@@ -17,6 +17,9 @@ This log was starting
 * Added latest subscription events to dashboard
 * Added latest payments to dashboard
 * Re-added warning bar that Stripe must be configured to use BillaBear
+* Improved currency display on Payment Details page
+* Improved currency input on refund creation from Payment Details page
+* Improved currency input on credit creation
 
 ### Developer
 
@@ -44,12 +47,13 @@ This log was starting
 * Added support contact details to brand
 * Added functionality to validate if stripe is configured when creating a customer via API
 * Added functionality to validate if stripe is configured when creating a customer via APP
+* Added workflow step for payments to sync with accounting integration
+* Added workflow step for invoice creation to sync with accounting integration
 
 ### Integrations
 
-* Added VAT Sense integration 
-
-
+* Added VAT Sense tax integration 
+* Added Xero accounting integration
 
 ## Version 2024.01.03 - 24.07.2024
 
