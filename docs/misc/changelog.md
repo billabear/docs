@@ -54,6 +54,8 @@ This log was starting
 
 * Added VAT Sense tax integration 
 * Added Xero accounting integration
+* Added Zendesk customer support integration
+* Added Freshdesk customer support integration
 
 ## Version 2024.01.03 - 24.07.2024
 
