@@ -49,6 +49,7 @@ This log was starting
 * Added functionality to validate if stripe is configured when creating a customer via APP
 * Added workflow step for payments to sync with accounting integration
 * Added workflow step for invoice creation to sync with accounting integration
+* Added marketing opt in flag to customer
 
 ### Integrations
 
