@@ -191,7 +191,7 @@ BillaBear supports sending internal notification to internal services via webhoo
 
 ```json
 {
-    plan: "plan_created",
+    type: "plan_created",
     plan: {
         id: "uuid-for-plan",
         name: "Name Of Plan",
@@ -207,7 +207,7 @@ BillaBear supports sending internal notification to internal services via webhoo
 
 ```json
 {
-    plan: "plan_updated",
+    type: "plan_updated",
     plan: {
         id: "uuid-for-plan",
         name: "Name Of Plan",
@@ -223,7 +223,7 @@ BillaBear supports sending internal notification to internal services via webhoo
 
 ```json
 {
-    plan: "plan_deleted",
+    type: "plan_deleted",
     plan: {
         id: "uuid-for-plan",
         name: "Name Of Plan",
@@ -235,3 +235,72 @@ BillaBear supports sending internal notification to internal services via webhoo
 }
 
 ```
+
+## Accounting Integration Failure
+
+```json
+{
+    type: "integration_accounting_failure",
+    exception: {
+        message: "Something bad happened",
+        code: 32,
+        request: {
+            method: "GET",
+            uri: "https://www.example.org",
+            body: "request body",
+        },
+        response: {
+            status: 404,
+            body: "the return body",
+        }
+    }
+}
+```
+
+`request` and `response` are only available for some failure
+
+## Customer Support Integration Failure
+
+```json
+{
+    type: "integration_customer_support_failure",
+    exception: {
+        message: "Something bad happened",
+        code: 32,
+        request: {
+            method: "GET",
+            uri: "https://www.example.org",
+            body: "request body",
+        },
+        response: {
+            status: 404,
+            body: "the return body",
+        }
+    }
+}
+```
+
+`request` and `response` are only available for some failure
+
+## Newsletter Integration Failure
+
+```json
+{
+    type: "integration_newsletter_failure",
+    exception: {
+        message: "Something bad happened",
+        code: 32,
+        request: {
+            method: "GET",
+            uri: "https://www.example.org",
+            body: "request body",
+        },
+        response: {
+            status: 404,
+            body: "the return body",
+        }
+    }
+}
+```
+
+`request` and `response` are only available for some failures
