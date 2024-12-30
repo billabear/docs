@@ -20,6 +20,7 @@ This log was starting
 * Improved currency display on Payment Details page
 * Improved currency input on refund creation from Payment Details page
 * Improved currency input on credit creation
+* Improved user edit page
 
 ### Developer
 
@@ -54,10 +55,12 @@ This log was starting
 ### Integrations
 
 * Added VAT Sense tax integration 
+* Added Easybill accounting integration
 * Added Xero accounting integration
 * Added Zendesk customer support integration
 * Added Freshdesk customer support integration
 * Added EmailOctopus newsletter integration
+* Added Mailchimp newsletter integration
 
 ## Version 2024.01.03 - 24.07.2024
 
