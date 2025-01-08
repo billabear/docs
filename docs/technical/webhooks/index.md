@@ -323,3 +323,32 @@ BillaBear supports sending internal notification to internal services via webhoo
     start_of_period: "2025-01-08T01:17:23+00:00",
     end_of_period: "2025-01-31T01:17:23+00:00"
 }
+```
+
+## Tax Country Threshold Reached
+
+```json
+{
+    type: "tax_country_threshold_reached",
+    country: {
+        name: "United Kingdom",
+        code: "GB",
+        threshold: "92,000.00"
+    }
+}
+```
+## Tax State Threshold Reached
+
+```json
+{
+    type: "tax_state_threshold_reached",
+    country: {
+        name: "United States",
+        code: "US"
+    },
+    state: {
+        name: "New York",
+        threshold: "39,000."
+    }
+}
+```
