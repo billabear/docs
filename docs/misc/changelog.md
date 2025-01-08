@@ -16,6 +16,7 @@ This log was starting
 * Added subscription events (activate, churn, reactivate, upgrade) to customer view
 * Added latest subscription events to dashboard
 * Added latest payments to dashboard
+* Added collecting tax filter to country list
 * Re-added warning bar that Stripe must be configured to use BillaBear
 * Improved currency display on Payment Details page
 * Improved currency input on refund creation from Payment Details page
@@ -40,6 +41,7 @@ This log was starting
 * Added workflow step for payments to sync with accounting integration
 * Added workflow step for invoice creation to sync with accounting integration
 * Added marketing opt in flag to customer
+* Save if tax is being collected for country/state when threshold is being checked
 
 ### Integrations
 
