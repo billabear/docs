@@ -304,3 +304,22 @@ BillaBear supports sending internal notification to internal services via webhoo
 ```
 
 `request` and `response` are only available for some failures
+
+## Usage Warning Triggered
+
+```json
+{
+    type: "trial_ended",
+    customer: {
+        id: "uuid-for-customer",
+        email: "iain.cambridge@example.org",
+        brand: "default",
+        is_disabled: false
+    },
+    limit: {
+        warning_level: "WARNING",
+        amount: 1000
+    }, 
+    start_of_period: "2025-01-08T01:17:23+00:00",
+    end_of_period: "2025-01-31T01:17:23+00:00"
+}
