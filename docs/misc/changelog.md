@@ -22,19 +22,6 @@ This log was starting
 * Improved currency input on credit creation
 * Improved user edit page
 
-### Developer
-
-* Change from Postgres to TimescaleDB
-* Dropped support for PHP 8.2
-* Added support for PHP 8.4
-* Added link from payment to payment card
-* Added a Symfony event for Customer Created
-* Added a Symfony event for Customer Enabled
-* Added a Symfony event for Customer Disabled
-* Upgraded to Symfony 7.2
-* Added Webhook events for integration failures
-* Added webhook event for usage warning triggered
-
 ### Functionality
 
 * Added invoice delivery methods to include SFTP and Webhooks alongside email
@@ -63,6 +50,19 @@ This log was starting
 * Added Freshdesk customer support integration
 * Added EmailOctopus newsletter integration
 * Added Mailchimp newsletter integration
+
+### Developer
+
+* Change from Postgres to TimescaleDB
+* Dropped support for PHP 8.2
+* Added support for PHP 8.4
+* Added link from payment to payment card
+* Added a Symfony event for Customer Created
+* Added a Symfony event for Customer Enabled
+* Added a Symfony event for Customer Disabled
+* Upgraded to Symfony 7.2
+* Added Webhook events for integration failures
+* Added webhook event for usage warning triggered
 
 ## Version 2024.01.03 - 24.07.2024
 
