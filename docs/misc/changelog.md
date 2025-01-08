@@ -42,6 +42,7 @@ This log was starting
 * Added workflow step for invoice creation to sync with accounting integration
 * Added marketing opt in flag to customer
 * Save if tax is being collected for country/state when threshold is being checked
+* Added slack notifications for tax threshold being reached.
 
 ### Integrations
 
@@ -65,6 +66,7 @@ This log was starting
 * Upgraded to Symfony 7.2
 * Added Webhook events for integration failures
 * Added webhook event for usage warning triggered
+* Added webhook events for tax threshold being reached.
 
 ## Version 2024.01.03 - 24.07.2024
 
