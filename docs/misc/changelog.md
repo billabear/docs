@@ -32,6 +32,8 @@ This log was starting
 * Added a Symfony event for Customer Enabled
 * Added a Symfony event for Customer Disabled
 * Upgraded to Symfony 7.2
+* Added Webhook events for integration failures
+* Added webhook event for usage warning triggered
 
 ### Functionality
 
