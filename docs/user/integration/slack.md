@@ -120,3 +120,20 @@ The format in the templates to use a variable is ``{{variable.name}}``.
 | subscription.seats_number | The number of seats for the plan | 4 |
 | subscrtipion.start_date | The start date of the subscription |  |
 | subscrtipion.valid_until | The end date of the subscription |  |
+
+## Country Tax Threshold Reached
+
+| Name | Description | Example |
+| --- | --- | --- |  
+| country.name | The name of the country | United Kingdom |
+| country.code | The ISO code for the country | GB     |
+| country.threshold_amount | The Threshold amount for country | 90,000.00 |
+
+## State Tax Threshold Reached
+
+| Name | Description | Example |
+| --- | --- | --- |  
+| country.name | The name of the country | United States Of America |
+| country.code | The ISO code for the country | US     |
+| state.name | The name of the country | Texas |
+| state.threshold_amount | The Threshold amount for state | 90,000.00 |
