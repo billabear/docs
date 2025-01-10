@@ -43,6 +43,7 @@ This log was starting
 * Added marketing opt in flag to customer
 * Save if tax is being collected for country/state when threshold is being checked
 * Added slack notifications for tax threshold being reached.
+* Added payment amounts converted to system amounts
 
 ### Integrations
 
