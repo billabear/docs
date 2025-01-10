@@ -68,6 +68,7 @@ This log was starting
 * Added Webhook events for integration failures
 * Added webhook event for usage warning triggered
 * Added webhook events for tax threshold being reached.
+* Improve performance of demo data generator
 
 ## Version 2024.01.03 - 24.07.2024
 
