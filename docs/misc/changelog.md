@@ -16,6 +16,7 @@ This log was starting
 * Added subscription events (activate, churn, reactivate, upgrade) to customer view
 * Added latest subscription events to dashboard
 * Added latest payments to dashboard
+* Added payment stats to dashboard
 * Added collecting tax filter to country list
 * Re-added warning bar that Stripe must be configured to use BillaBear
 * Improved currency display on Payment Details page
