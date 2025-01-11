@@ -70,6 +70,8 @@ This log was starting
 * Added webhook event for usage warning triggered
 * Added webhook events for tax threshold being reached.
 * Improve performance of demo data generator
+* Added amounts converted into the reporting currency to Payment, Receipt, and Invoice.
+* Added links to Subscription to ReceiptLine and InvoiceLine.
 
 ## Version 2024.01.03 - 24.07.2024
 
