@@ -45,6 +45,7 @@ This log was starting
 * Save if tax is being collected for country/state when threshold is being checked
 * Added slack notifications for tax threshold being reached.
 * Added payment amounts converted to system amounts
+* Added tax transaction count thresholds
 
 ### Integrations
 
