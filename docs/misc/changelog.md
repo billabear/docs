@@ -73,6 +73,7 @@ This log was starting
 * Improve performance of demo data generator
 * Added amounts converted into the reporting currency to Payment, Receipt, and Invoice.
 * Added links to Subscription to ReceiptLine and InvoiceLine.
+* Changed license from FSL to FCL
 
 ## Version 2024.01.03 - 24.07.2024
 
