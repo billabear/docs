@@ -5,7 +5,7 @@ sidebar_position: 1
 ---
 This log was starting
 
-## Version 2025.01.01 - xx.01.2025
+## Version 2025.01.01 - 27.01.2025
 
 ### UI
 
