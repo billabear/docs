@@ -5,6 +5,12 @@ sidebar_position: 1
 ---
 This log was starting
 
+## Version 2025.02.01 - xx.07.2025
+
+## Functionality
+
+* Added slack notification for workflow failure
+
 ## Version 2025.01.01 - 27.01.2025
 
 ### UI
