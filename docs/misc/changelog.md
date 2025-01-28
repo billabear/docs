@@ -10,6 +10,7 @@ This log was starting
 ## Functionality
 
 * Added slack notification for workflow failure
+* Added exception flung for workflow webhook transitions
 
 ## Version 2025.01.01 - 27.01.2025
 
