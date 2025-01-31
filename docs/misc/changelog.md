@@ -11,6 +11,11 @@ This log was starting
 
 * Added slack notification for workflow failure
 * Added exception flung for workflow webhook transitions
+* Added metadata to customer
+
+## Versrion 2025.01.02 - 31.01.2025
+
+* Fixed outputs for customer marketing opt in and invoice format
 
 ## Version 2025.01.01 - 27.01.2025
 
