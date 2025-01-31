@@ -10,7 +10,7 @@ This log was starting
 ## Functionality
 
 * Added slack notification for workflow failure
-* Added exception flung for workflow webhook transitions
+* Worflows stop if a workflow webhook transition fails
 * Added metadata to customer
 
 ## Versrion 2025.01.02 - 31.01.2025
