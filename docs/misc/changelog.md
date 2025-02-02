@@ -13,7 +13,15 @@ This log was starting
 * Worflows stop if a workflow webhook transition fails
 * Added metadata to customer
 
-## Versrion 2025.01.02 - 31.01.2025
+## Integrations
+
+* Added Hubspot integration
+
+## Version 2025.01.03 - 02.02.2025
+
+* Fixed oauth for xero 
+
+## Version 2025.01.02 - 31.01.2025
 
 * Fixed outputs for customer marketing opt in and invoice format
 
