@@ -56,7 +56,7 @@ const config = {
         title: 'BillaBear',
         logo: {
           alt: 'BillaBear',
-          src: 'img/logo.svg',
+          src: 'img/billabear.png',
         },
         items: [
           {
