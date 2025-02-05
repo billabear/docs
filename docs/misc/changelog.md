@@ -7,13 +7,13 @@ This log was starting
 
 ## Version 2025.02.01 - xx.07.2025
 
-## Functionality
+### Functionality
 
 * Added slack notification for workflow failure
 * Worflows stop if a workflow webhook transition fails
 * Added metadata to customer
 
-## Integrations
+### Integrations
 
 * Added Hubspot integration
 
