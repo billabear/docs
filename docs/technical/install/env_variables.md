@@ -25,3 +25,4 @@ There are some Enviorment Variables that must be set and some that can be overri
 | HUBSPOT_REDIRECT_URI | The redirect URL to give to HubSpot | 2025.02.01 |
 | ELASTICSEARCH_HOST | The host for ElasticSearch | 2025.02.01 |
 | ELASTICSEARCH_PORT | The port for ElasticSearch | 2025.02.01 |
+| AUDIT_LOG_INDEX | The ElasticSearch index for the audit log | 2025.02.01 |

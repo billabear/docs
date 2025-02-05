@@ -13,6 +13,8 @@ The following data is synced to your finance software:
 * Refund Data
 * Invoices
 
+Invoices for customers who pay by invoice will also be checked in the finance software to see if it's been paid and removing the need to manually process this.
+
 ## Integrations
 
 ### Xero
