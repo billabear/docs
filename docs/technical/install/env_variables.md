@@ -6,7 +6,7 @@ sidebar_position: 5
 There are some Enviorment Variables that must be set and some that can be override.
 
 | ENV Var | Description | Since | 
-| --- | --- | 
+| --- | --- | --- |
 | STRIPE_PRIVATE_API_KEY | Secret API key for Stripe | |
 | STRIPE_PUBLIC_API_KEY  | The publishable API key for stripe | |
 | APP_SECRET | Symfony ENV var that should be unique string | |
