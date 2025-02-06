@@ -12,6 +12,8 @@ This log was starting
 * Added slack notification for workflow failure
 * Worflows stop if a workflow webhook transition fails
 * Added metadata to customer
+* Added Overall Audit Logs
+* Added Audit Logs for customers
 
 ### Integrations
 
