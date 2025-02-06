@@ -14,6 +14,8 @@ This log was starting
 * Added metadata to customer
 * Added Overall Audit Logs
 * Added Audit Logs for customers
+* Added Audit Logs for subscription
+* Added Audit Logs for billing admins
 
 ### Integrations
 
