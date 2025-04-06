@@ -7,6 +7,10 @@ This log was starting
 
 ## Version 2025.02.01 - xx.07.2025
 
+### UI
+
+* Improve Stripe import view to make it clear why an import failed.
+
 ### Functionality
 
 * Added slack notification for workflow failure
@@ -16,6 +20,7 @@ This log was starting
 * Added Audit Logs for customers
 * Added Audit Logs for subscription
 * Added Audit Logs for billing admins
+* Added notification emails for Stripe imports.
 
 ### Integrations
 
