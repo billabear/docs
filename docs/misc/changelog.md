@@ -10,6 +10,7 @@ This log was starting
 ### UI
 
 * Improve Stripe import view to make it clear why an import failed.
+* Improved country tax lists to show which countries need tax registration and which countries tax is being collected for.
 
 ### Functionality
 
@@ -25,6 +26,10 @@ This log was starting
 ### Integrations
 
 * Added Hubspot integration
+
+### Developer
+
+* Refactor DTOs to be readonly
 
 ## Version 2025.01.03 - 02.02.2025
 
