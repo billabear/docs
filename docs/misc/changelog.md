@@ -22,6 +22,11 @@ This log was starting
 * Added Audit Logs for subscription
 * Added Audit Logs for billing admins
 * Added notification emails for Stripe imports.
+* Added customer manage functionality to portal
+* Added customer manage token fetch to API
+* Added ability to charge invoice from customer portal
+* Added ability to download invoice from customer portal
+* Added ability to cancel subscription from customer portal
 
 ### Integrations
 
