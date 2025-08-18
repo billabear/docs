@@ -3,7 +3,7 @@ title: BillaBear Invoice Events
 sidebar_label: Invoice
 sidebar_position: 2
 ---
-Here is the information relating to events relating to Invoices
+Here is the information relating to events relating to Invoices.
 
 ## Invoice Created
 

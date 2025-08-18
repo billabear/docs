@@ -3,7 +3,7 @@ title: BillaBear Customer Events
 sidebar_label: Customer
 sidebar_position: 1
 ---
-Here is the information relating to events relating to Customers
+Here is the information relating to events relating to Customers.
 
 ## Customer Created
 
@@ -59,7 +59,7 @@ class CustomerDisabled extends Event
 
 ## Customer Enabled
 
-This is triggered when a disabled customer is enabled again
+This is triggered when a disabled customer is enabled again.
 
 | Name | Constant For Name |
 | --- | --- |

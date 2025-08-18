@@ -3,7 +3,7 @@ title: BillaBear Checkout Events
 sidebar_label: Checkout
 sidebar_position: 3
 ---
-Here is the information relating to events relating to Checkout
+Here is the information relating to events relating to Checkout.
 
 ## Checkout Created
 
@@ -33,7 +33,7 @@ class CheckoutCreated extends Event
 
 ## Checkout Session Created
 
-This is triggered when a checkout seassion is created.
+This is triggered when a checkout session is created.
 
 | Name | Constant For Name |
 | --- | --- |

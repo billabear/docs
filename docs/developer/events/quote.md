@@ -3,7 +3,7 @@ title: BillaBear Quotes Events
 sidebar_label: Quotes
 sidebar_position: 5
 ---
-Here is the information relating to events relating to Quotes
+Here is the information relating to events relating to Quotes.
 
 ## Quote Created
 

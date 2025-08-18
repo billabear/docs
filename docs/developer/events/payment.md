@@ -3,11 +3,11 @@ title: BillaBear Payments Events
 sidebar_label: Payments
 sidebar_position: 4
 ---
-Here is the information relating to events relating to Payments
+Here is the information relating to events relating to Payments.
 
 ## Payment Failed
 
-This is triggered when a checkout is created.
+This is triggered when a payment fails.
 
 | Name | Constant For Name |
 | --- | --- |
