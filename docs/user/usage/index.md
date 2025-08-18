@@ -3,13 +3,26 @@ title: Usage Based Billing
 sidebar_label: Usage
 sidebar_position: 15
 ---
-Usage based billing is where you bill users based on how much they use. This allows you to bill your customers fairly based on use. Your customers who use your service the most pay the most while your customers who use you the least pay the least.
 
-How it works is that you have metrics and you then create events reporting new usage for the metric. You're able to set the pricing to be based on various type aggegration such as count, sum, max, etc.
+# Overview
 
-# Parts
+Usage-based billing allows you to charge customers based on their actual consumption of your services. This creates a fair pricing model where customers who use your service more pay more, while those who use it less pay less.
 
-* [Metrics](./metrics)
-* [Aggregation Methods](./aggregation_methods)
-* [Usage Estimate Costs](./usage_estimate_costs)
-* [Events](./events)
+## How Usage-Based Billing Works in BillaBear
+
+1. **Define Metrics**: Create metrics to track specific aspects of your service that you want to measure (e.g., API calls, storage used, processing time).
+
+2. **Record Usage**: Your system sends usage events to BillaBear whenever customers use your service.
+
+3. **Aggregate Data**: BillaBear processes these events using your chosen aggregation method (count, sum, max, etc.) to calculate the total usage.
+
+4. **Apply Pricing**: The aggregated usage is combined with your pricing rules to calculate charges.
+
+5. **Generate Invoices**: BillaBear creates invoices that include the usage-based charges.
+
+## Key Components
+
+* [Metrics](./metrics) - Define what you want to measure and how to process the data
+* [Aggregation Methods](./aggregation_methods) - Different ways to calculate total usage from individual events
+* [Cost Estimates](./usage_estimate_costs) - Provide customers with estimated costs based on current usage
+* [Events](./events) - Record actual usage data in your system
