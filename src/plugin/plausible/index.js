@@ -15,7 +15,7 @@ module.exports = async function Plausible(context, options) {
                 async: true,
                 defer: true,
                 "data-domain": 'docs.billabear.com',
-                src: `https://stats.ha-infra.xyz/info.js`,
+                src: `https://stats.iain.rocks/info.js`,
               };
 
             return {
@@ -25,7 +25,7 @@ module.exports = async function Plausible(context, options) {
                         attributes: {
                             key: "docusaurus-plugin-plausible-preconnect",
                             rel: "preconnect",
-                            href: `https://stats.ha-infra.xyz`,
+                            href: `https://stats.iain.rocks`,
                         },
                     },
                     {
