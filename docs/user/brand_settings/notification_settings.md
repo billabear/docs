@@ -1,6 +1,6 @@
 ---
 title: Notification Settings
-sidebar_label: Notifications Settings
+sidebar_label: Notification Settings
 sidebar_position: 3
 ---
 The ability to define which notifications are sent to customers is an important feature.
@@ -8,13 +8,13 @@ The ability to define which notifications are sent to customers is an important 
 
 ## Permissions
 
-To be able to toogle a customer's status the BillaBear admin system you will need to have a ROLE of account manager or higher.
+To be able to toggle notification settings in the BillaBear admin system, you will need to have a ROLE of account manager or higher.
 
 [Check the user roles here.](../user_roles/)
 
 ## How It Works
 
-Each notification is either enabled or it's not. If the box is checked then it's enabled.
+Each notification is either enabled or disabled. If the box is checked, then the notification is enabled.
 
 ## How To
 
@@ -36,4 +36,4 @@ Each notification is either enabled or it's not. If the box is checked then it's
 
 ### Step 5. Click Update
 
-![CLick Update](./notification_settings_screenshot/5_click_update.png)
+![Click Update](./notification_settings_screenshot/5_click_update.png)
