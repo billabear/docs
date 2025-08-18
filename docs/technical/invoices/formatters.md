@@ -83,6 +83,19 @@ BillaBear uses the `InvoiceFormatterProvider` to select the appropriate formatte
 3. Specific formats can be requested when generating invoices programmatically
 4. The system selects a formatter by checking which one supports the requested format
 
+The selection process works as follows:
+
+```php
+// Get formatter based on customer preferences
+$formatter = $formatterProvider->getFormatter($customer);
+
+// Or get formatter by specific format
+$formatter = $formatterProvider->getFormatterByType('pdf');
+
+// Generate the invoice
+$invoiceContent = $formatter->generate($invoice);
+```
+
 ## Best Practices
 
 When creating custom invoice formatters:
@@ -90,14 +103,23 @@ When creating custom invoice formatters:
 1. Use a unique and descriptive format name to avoid conflicts
 2. Implement proper error handling in the `generate` method
 3. Return appropriate file extensions in the `filename` method
-4. Consider internationalization requirements for different customers
+4. Consider internationalisation requirements for different customers
 5. Test your formatter with various invoice scenarios (different currencies, tax settings, etc.)
+6. Ensure your formatter handles all invoice line types correctly
+7. Consider performance implications for large invoices
 
 ## Integration with Invoice Delivery
 
 Custom formatters integrate seamlessly with BillaBear's invoice delivery system, allowing invoices to be:
 
 1. Generated in your custom format
-2. Delivered via email
+2. Delivered via email, SFTP, or webhook
 3. Made available for download in the customer portal
 4. Stored in the system for future reference
+
+When a delivery is requested, the system:
+1. Determines the appropriate formatter based on delivery settings
+2. Generates the invoice using the formatter
+3. Delivers the generated content via the specified delivery method
+
+This modular approach allows for great flexibility in how invoices are formatted and delivered to customers.
