@@ -3,29 +3,56 @@ title: Invoice Formatters
 sidebar_label: Formatters
 sidebar_position: 1
 ---
-BillaBear allows you to create your own Invoice Formatters to be used with the invoice delivery system.
 
-## How To Create
+# Invoice Formatters
 
-Creating a new invoice formatter all you need to do is create a class that implements the `BillaBear\Invoice\Formatter\InvoiceFormatterInterface`. Once it's created it'll be automatically tagged as an invoice formatter and added to the list of invoice formats.
+BillaBear allows you to create your own Invoice Formatters to be used with the invoice delivery system. This feature enables you to generate invoices in various formats such as PDF, XML, or custom formats to meet specific requirements.
 
-### Example
+## How Invoice Formatters Work
+
+Invoice formatters in BillaBear:
+
+1. Implement the `InvoiceFormatterInterface`
+2. Are automatically registered in the system via Symfony's autoconfiguration
+3. Can be selected based on customer preferences or specific format requirements
+4. Generate invoice content in the desired format (PDF, XML, etc.)
+5. Provide appropriate filenames for the generated invoices
+
+BillaBear includes several built-in formatters:
+- PDF Generator (default)
+- ZUGFeRD (German electronic invoice format)
+- ZUGFeRD V2 (Updated version of the German electronic invoice format)
+
+## Creating a Custom Formatter
+
+To create a new invoice formatter, you need to create a class that implements the `BillaBear\Invoice\Formatter\InvoiceFormatterInterface`. Once created, it will be automatically tagged as an invoice formatter and added to the list of available invoice formats.
+
+The interface requires implementing the following methods:
+
+- `generate(Invoice $invoice): mixed` - Generates the formatted invoice content
+- `filename(Invoice $invoice): string` - Determines the filename for the generated invoice
+- `name(): string` - Returns the unique identifier for the formatter
+- `supports(string $type): bool` - Checks if the formatter supports a specific format type
+
+### Example Implementation
 
 ```php
 <?php
 
 namespace Custom\Invoice;
 
+use BillaBear\Entity\Invoice;
 use BillaBear\Invoice\Formatter\InvoiceFormatterInterface;
 
 class CustomFormatter implements InvoiceFormatterInterface
 {
-    public const string FORMAT_NAME = 'CustomFormatter';
+    public const string FORMAT_NAME = 'custom.invoice.formatter';
 
     public function generate(Invoice $invoice): mixed
     {
         $xml = '';
-        // ...
+        // Your custom logic to generate the invoice in your desired format
+        // This could involve using templates, generating XML, JSON, or any other format
 
         return $xml;
     }
@@ -46,3 +73,31 @@ class CustomFormatter implements InvoiceFormatterInterface
     }
 }
 ```
+
+## How Formatters Are Selected
+
+BillaBear uses the `InvoiceFormatterProvider` to select the appropriate formatter:
+
+1. By default, the PDF formatter is used if no specific format is requested
+2. Customers can have a preferred invoice format set in their profile
+3. Specific formats can be requested when generating invoices programmatically
+4. The system selects a formatter by checking which one supports the requested format
+
+## Best Practices
+
+When creating custom invoice formatters:
+
+1. Use a unique and descriptive format name to avoid conflicts
+2. Implement proper error handling in the `generate` method
+3. Return appropriate file extensions in the `filename` method
+4. Consider internationalization requirements for different customers
+5. Test your formatter with various invoice scenarios (different currencies, tax settings, etc.)
+
+## Integration with Invoice Delivery
+
+Custom formatters integrate seamlessly with BillaBear's invoice delivery system, allowing invoices to be:
+
+1. Generated in your custom format
+2. Delivered via email
+3. Made available for download in the customer portal
+4. Stored in the system for future reference
