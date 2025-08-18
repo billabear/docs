@@ -62,17 +62,6 @@ Each customer can have multiple delivery settings, allowing invoices to be deliv
 
 ## Delivery Architecture
 
-### DeliveryHandlerInterface
-
-The core of the delivery system is the `DeliveryHandlerInterface`:
-
-```php
-interface DeliveryHandlerInterface
-{
-    public function deliver(Invoice $invoice, InvoiceDeliverySettings $invoiceDelivery): void;
-}
-```
-
 Each delivery method implements this interface to handle its specific delivery logic.
 
 ### Delivery Status Tracking
@@ -93,93 +82,6 @@ BillaBear uses Symfony Messenger for asynchronous invoice delivery, which:
 3. Allows for better error handling and logging
 
 The delivery process is initiated by dispatching an `InvoiceDeliveryRequest` message, which is then handled by the `InvoiceDeliveryRequestHandler`.
-
-## Implementing a Custom Delivery Handler
-
-To create a custom delivery method, you need to:
-
-1. Create a new delivery type in the `InvoiceDeliveryType` enum
-2. Implement the `DeliveryHandlerInterface`
-3. Register your handler as a service
-
-### Example Implementation
-
-Here's an example of a custom delivery handler for a cloud storage service:
-
-```php
-<?php
-
-namespace Custom\Invoice\Delivery;
-
-use BillaBear\Entity\Invoice;
-use BillaBear\Entity\InvoiceDeliverySettings;
-use BillaBear\Invoice\Delivery\DeliveryHandlerInterface;
-use BillaBear\Invoice\Formatter\InvoiceFormatterProvider;
-use Parthenon\Common\LoggerAwareTrait;
-
-class CloudStorageDeliveryHandler implements DeliveryHandlerInterface
-{
-    use LoggerAwareTrait;
-
-    public function __construct(
-        private InvoiceFormatterProvider $invoiceFormatterProvider,
-        private CloudStorageClient $cloudStorageClient,
-    ) {
-    }
-
-    public function deliver(Invoice $invoice, InvoiceDeliverySettings $invoiceDelivery): void
-    {
-        // Get the formatter based on delivery settings
-        $formatter = $this->invoiceFormatterProvider->getFormatterByType($invoiceDelivery->getInvoiceFormat());
-        
-        // Generate the invoice content
-        $content = $formatter->generate($invoice);
-        $filename = $formatter->filename($invoice);
-        
-        // Get cloud storage settings from delivery settings
-        $bucketName = $invoiceDelivery->getCloudStorageBucket();
-        $path = $invoiceDelivery->getCloudStoragePath();
-        
-        try {
-            // Upload to cloud storage
-            $this->cloudStorageClient->upload(
-                $bucketName,
-                $path . '/' . $filename,
-                $content
-            );
-            
-            $this->getLogger()->info('Invoice uploaded to cloud storage', [
-                'invoice_number' => $invoice->getInvoiceNumber(),
-                'bucket' => $bucketName,
-                'path' => $path,
-            ]);
-        } catch (\Exception $e) {
-            $this->getLogger()->error('Failed to upload invoice to cloud storage', [
-                'invoice_number' => $invoice->getInvoiceNumber(),
-                'bucket' => $bucketName,
-                'path' => $path,
-                'error' => $e->getMessage(),
-            ]);
-            
-            throw $e;
-        }
-    }
-}
-```
-
-### Service Registration
-
-Register your delivery handler in `config/services.yaml`:
-
-```yaml
-services:
-    Custom\Invoice\Delivery\CloudStorageDeliveryHandler:
-        arguments:
-            $invoiceFormatterProvider: '@BillaBear\Invoice\Formatter\InvoiceFormatterProvider'
-            $cloudStorageClient: '@Custom\CloudStorage\CloudStorageClient'
-        tags:
-            - { name: 'monolog.logger', channel: 'invoice_delivery' }
-```
 
 ## Best Practices
 
