@@ -3,49 +3,90 @@ title: Search Customers
 sidebar_label: Search Customers
 sidebar_position: 1
 ---
-In order to manage a customer's subscription and billing you need to be able to find the customers. 
 
-## Filters
-There are the following filters:
+# Searching for Customers
 
-* Email
-* Reference
-* External Reference
+Finding specific customers quickly is essential for efficient customer management. BillaBear provides a powerful search feature with multiple filters to help you locate customers based on different criteria.
 
-### Email
+## Why Search for Customers?
 
-The email filter is a search for any email containing the value. If you search for "iain" it would match for:
+You may need to search for customers to:
+- View or update customer information
+- Check subscription status
+- Process payments or refunds
+- Respond to support inquiries
+- Generate reports for specific customer segments
 
+## Available Search Filters
+
+BillaBear offers several filters to help you find customers:
+
+### Email Filter
+
+The email filter searches for any email address containing the value you enter. This is a partial match search, so you can enter just a portion of an email address.
+
+**Example:** Searching for "iain" would match:
 * iain@billabear.com
 * me@iain.sexy
 * me@iaincambridge.me
 
-### Reference
+### Reference Filter
 
-Reference this is a search for any reference containing the value.
+The reference filter searches for any customer reference containing the value you enter. References are internal identifiers that you can assign to customers for your own tracking purposes.
 
-### External Reference
+**Example:** If you use department codes like "SALES-123" as references, searching for "SALES" would find all customers with sales department references.
 
-External reference is the customer id from stripe. So if you have that you're able to search.
+### External Reference Filter
 
-## How To 
+The external reference filter searches for customers by their payment provider ID (such as Stripe customer ID). This is useful when reconciling accounts with your payment processor.
 
-### Step 1. Go to Customers Search
+**Example:** If you have a Stripe customer ID like "cus_1234567890", you can search for it directly.
 
-![Click Customers](./search_screenshots/1_click_customers.png)
+## Step-by-Step Search Guide
 
-### Step 2. Click Filters
+### Step 1: Navigate to Customers Search
 
-![Click Filters](./search_screenshots/2_click_filters.png)
+Click on "Customers" in the main navigation menu to access the customer search page.
 
-### Step 3. Select Filters
+![Click Customers in navigation](./search_screenshots/1_click_customers.png)
 
-![Select Filters](./search_screenshots/3_select_filters.png)
+### Step 2: Open the Filters Panel
 
-### Step 4. Enter Filter
+Click the "Filters" button to display the available search filters.
 
-![Enter Filters](./search_screenshots/4_enter_filter.png)
+![Click Filters button](./search_screenshots/2_click_filters.png)
 
-### Step 5. Press Filter
+### Step 3: Select a Filter Type
 
-![Press Filter](./search_screenshots/5_press_filter.png)
+Choose which type of filter you want to use (Email, Reference, or External Reference).
+
+![Select filter type](./search_screenshots/3_select_filters.png)
+
+### Step 4: Enter Your Search Term
+
+Type your search term in the filter field.
+
+![Enter search term](./search_screenshots/4_enter_filter.png)
+
+### Step 5: Apply the Filter
+
+Click the "Filter" button to perform the search.
+
+![Click Filter button](./search_screenshots/5_press_filter.png)
+
+## Working with Search Results
+
+After performing a search:
+
+1. **Viewing Results**: The system displays all matching customers in a list
+2. **Sorting**: You can sort results by clicking on column headers
+3. **Pagination**: Use the pagination controls at the bottom of the list to navigate through multiple pages of results
+4. **Customer Details**: Click on a customer's name or ID to view their complete profile
+
+## Tips for Effective Searching
+
+- **Be Specific**: The more specific your search term, the more precise your results will be
+- **Combine Filters**: For complex searches, you can apply multiple filters sequentially
+- **Check Spelling**: Ensure your search terms are spelled correctly
+- **Use Partial Matches**: You don't need to enter complete email addresses or references
+- **Clear Filters**: Use the "Clear Filters" option to start a new search
