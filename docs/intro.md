@@ -3,50 +3,137 @@ sidebar_position: 1
 slug: /
 ---
 
-# Intro
+# Introduction to BillaBear
 
-BillaBear is a standalone SaaS Subscription Management and Billing tool. It's designed to allow companies to solve their subscription management and billing problems with ease.
+BillaBear is a comprehensive standalone subscription management and billing system designed to help businesses efficiently manage their subscription-based services. It provides a user-friendly interface and powerful tools to handle all aspects of the subscription lifecycle, from customer management to invoice generation and payment processing.
 
-It intergrates with Stripe Billing, allowing you to easily take control over many parts of the billing process with Stripe Billing that aren't as nice as they could be. The ability to completely control your invoices, receipts, and email templates.
+## What is BillaBear?
 
-The documentation is split into two parts. One part is technical documentation, this is stuff such as how to deploy, how to configure background tasks, what each task does, etc. The other half is user documentation, this is how to create a product, how to edit templates, how to refund payments, etc.
+BillaBear is a complete solution for businesses that need to:
 
-There is also Swagger documentation that documents the API that is separate from this site. They can be found at [swagger.billabear.com](https://swagger.billabear.com).
+- Manage customer subscriptions and billing
+- Generate and deliver professional invoices
+- Process payments and handle financial transactions
+- Track subscription metrics and analytics
+- Customize billing workflows to match business needs
 
-## Technical
+Whether you're a small business just starting with subscription services or a large enterprise with complex billing requirements, BillaBear provides the tools you need to streamline your subscription management processes.
 
-* [Intro](./technical/)
+## Key Features
 
+### Subscription Management
 
-## User
+BillaBear offers comprehensive subscription management capabilities:
 
-* [Intro](./user/)
-* [User Roles](./user/user_roles/)
+- **Subscription Plans**: Create and manage different subscription plans with various pricing options
+- **Flexible Billing Cycles**: Support for different payment schedules (monthly, quarterly, annual, etc.)
+- **Trial Periods**: Configure free trial periods for subscription plans
+- **Seat-Based Subscriptions**: Manage subscriptions based on the number of seats or users
+- **Usage-Based Billing**: Charge customers based on their actual usage of your services
+- **Subscription Modifications**: Easily change plans, prices, or payment methods
+- **Cancellation Management**: Handle subscription cancellations with customizable workflows
 
-### Subscriptions
+### Invoice Management
 
-* [View Subscription](./user/subscriptions/view_subscription.md)
-* [Create Subscription](./user/subscriptions/create_subscription)
-* [Change Payment Method](./user/subscriptions/change_payment_details.md)
-* [Change Plan](./user/subscriptions/change_plan.md)
-* [Change Price](./user/subscriptions/change_price.md)
-* [Cancel Subscription](./user/subscriptions/cancellation.md)
+BillaBear provides a robust invoice system:
 
-### Customers
+- **Multiple Formats**: Generate invoices in various formats (PDF, ZUGFeRD, etc.)
+- **Customizable Templates**: Create branded invoice templates
+- **Flexible Delivery**: Deliver invoices via email, SFTP, or webhooks
+- **Payment Tracking**: Monitor invoice payment status
+- **Automatic Generation**: Schedule automatic invoice generation for recurring subscriptions
 
-* [Create Customer](./user/customers/create)
-* [Search Customers](./user/customers/search_customers.md)
-* [Enable/Disable](./user/customers/enable_disable)
+### Payment Processing
 
-### Templates
+BillaBear integrates with Stripe for payment processing:
 
-* [Email Template Variables](./user/templates/email_variables)
-* [Create Email Template](./user/templates/create_template)
+- **Stripe Integration**: Seamless integration with Stripe Billing
+- **Payment Collection**: Automatically collect payments for invoices
+- **Refund Management**: Process refunds when needed
+- **Chargeback Handling**: Manage chargebacks from customers
+- **Payment Method Management**: Store and manage customer payment methods securely
 
-### Brand Settings
+### Customer Management
 
-* [Notification Settings](./user/brand_settings/notification_settings)
+BillaBear helps you manage your customer relationships:
 
-### Stripe
+- **Customer Profiles**: Store and manage customer information
+- **Multiple Payment Methods**: Support for multiple payment methods per customer
+- **Customer Portal**: Provide customers with access to their subscription information
+- **Communication Tools**: Send notifications and updates to customers
 
-* [Import Data](./user/stripe/import)
+### Customization and Branding
+
+BillaBear allows you to customize the system to match your brand:
+
+- **Email Templates**: Create custom email templates for various notifications
+- **Brand Settings**: Configure brand-specific settings
+- **Notification Preferences**: Set up notification preferences for different events
+
+### Data Import and Migration
+
+BillaBear makes it easy to migrate from existing systems:
+
+- **Stripe Data Import**: Import customers, products, prices, subscriptions, payments, refunds, and chargebacks from Stripe
+- **Data Mapping**: Map existing data to BillaBear's data structure
+
+### Technical Features
+
+BillaBear includes several technical features for developers and administrators:
+
+- **API Access**: Integrate with other systems using the BillaBear API
+- **Webhook Support**: Send and receive webhooks for event-driven integrations
+- **User Roles**: Configure different access levels for staff members
+- **Audit Logging**: Track changes to important data
+- **Analytics and Reporting**: Generate reports on subscription metrics, revenue, and other key indicators
+
+## Stripe Integration
+
+BillaBear integrates with Stripe Billing, allowing you to leverage Stripe's payment processing capabilities while gaining more control over your billing processes. The integration enables you to:
+
+- Import existing Stripe data into BillaBear
+- Use Stripe for payment processing while managing subscriptions in BillaBear
+- Customize invoices, receipts, and email templates beyond what Stripe offers
+- Maintain synchronization between BillaBear and Stripe
+
+## Documentation Structure
+
+The BillaBear documentation is organized into several sections:
+
+### Technical Documentation
+
+The [Technical Documentation](./technical/) covers aspects relevant to developers, system administrators, and technical staff:
+
+- API usage and configuration
+- Installation and deployment options
+- Environment variables and configuration
+- Command-line tools
+- Webhook integration
+- System architecture
+
+### User Documentation
+
+The [User Documentation](./user/) explains how to use BillaBear's web interface for day-to-day operations:
+
+- Managing subscriptions
+- Working with customers
+- Configuring templates
+- Setting up brand preferences
+- Importing data from Stripe
+- User roles and permissions
+
+### API Documentation
+
+Detailed API documentation is available as a separate Swagger documentation site at [swagger.billabear.com](https://swagger.billabear.com).
+
+## Getting Started
+
+To get started with BillaBear:
+
+1. Review the [Installation Guide](./technical/install) for deployment options
+2. Set up your [Brand Settings](./user/brand_settings/notification_settings)
+3. Import your existing data or [Create Customers](./user/customers/create)
+4. Configure your [Subscription Plans](./user/subscriptions/create_subscription)
+5. Start managing your subscriptions and billing
+
+Whether you're migrating from another system or setting up subscription billing for the first time, BillaBear provides the tools and flexibility you need to create an efficient, customized billing workflow for your business.
