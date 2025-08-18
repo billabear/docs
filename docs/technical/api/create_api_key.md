@@ -53,8 +53,6 @@ When working with API keys, follow these security best practices:
 
 After clicking Create, you'll see a confirmation screen with your new API key displayed. This is the **only time** the full API key will be shown.
 
-![Save API Key](./create_api_key_screenshots/7_save_api_key.png)
-
 **IMPORTANT:** Copy and securely store your API key immediately. For security reasons, BillaBear only displays the complete API key once. If you lose it, you'll need to create a new one.
 
 ## Using Your API Key
