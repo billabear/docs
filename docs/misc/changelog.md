@@ -5,7 +5,7 @@ sidebar_position: 1
 ---
 This log was starting
 
-## Version 2025.02.01 - xx.07.2025
+## Version 2025.02.01 - xx.10.2025
 
 ### UI
 
@@ -15,7 +15,7 @@ This log was starting
 ### Functionality
 
 * Added slack notification for workflow failure
-* Worflows stop if a workflow webhook transition fails
+* Workflows stop if a workflow webhook transition fails
 * Added metadata to customer
 * Added Overall Audit Logs
 * Added Audit Logs for customers
@@ -27,6 +27,7 @@ This log was starting
 * Added ability to charge invoice from customer portal
 * Added ability to download invoice from customer portal
 * Added ability to cancel subscription from customer portal
+* Added subscription stats that show monthly changes
 
 ### Integrations
 

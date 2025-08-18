@@ -3,90 +3,50 @@ title: API
 sidebar_label: API
 sidebar_position: 8
 ---
-BillaBear allows integration via the API.
+BillaBear provides a comprehensive REST API that allows you to integrate with and automate your billing operations. This documentation provides an overview of the API capabilities, authentication, and available endpoints.
 
-## API Key Management
+## Authentication
 
-To manage the API keys BillaBear provides the following UI functionalities in the web UI.
+All API requests require authentication using an API key. The API key must be included in the `X-API-KEY` header of each request:
 
-* [Create API Key](./create_api_key)
-* [Disable API Key](./disable)
+```
+X-API-KEY: YOUR_API_KEY
+```
 
-## API Docs
+### API Key Management
 
-You can find the REST api docs at https://swagger.billabear.com
+To manage your API keys, BillaBear provides the following UI functionalities:
 
-## Feature Support
+* [Create API Key](./create_api_key) - Generate a new API key for integration
+* [Disable API Key](./disable) - Deactivate an existing API key for security purposes
+
+## API Documentation
+
+Detailed API documentation with all endpoints, request parameters, and response formats is available at:
+
+[https://swagger.billabear.com](https://swagger.billabear.com)
 
 
-### Subscriptions
+## Error Handling
 
-| Feature | REST API | Stripe Interopt |
-| --- | ---- | --- |
-| Create Subscription | <img src="/img/tick.svg" alt="Tick" width="25"/>  | <img src="/img/cross.svg" alt="Cross" width="25"/> | 
-| List Subscriptions | <img src="/img/tick.svg" alt="Tick" width="25"/>  | <img src="/img/tick.svg" alt="Cross" width="25"/> | 
-| List Customer Subscriptions | <img src="/img/tick.svg" alt="Tick" width="25"/>  | <img src="/img/tick.svg" alt="Cross" width="25"/> | 
-| View Subscription |  <img src="/img/tick.svg" alt="Tick" width="25"/>  | <img src="/img/cross.svg" alt="Cross" width="25"/> | 
-| Cancel Subscription | <img src="/img/tick.svg" alt="Tick" width="25"/>  | <img src="/img/tick.svg" alt="Cross" width="25"/> |
-| Change Subscription Plan | <img src="/img/tick.svg" alt="Tick" width="25"/>  | <img src="/img/cross.svg" alt="Cross" width="25"/> | 
-| Add Seat to Per Seat Subscription | <img src="/img/tick.svg" alt="Tick" width="25"/>  | <img src="/img/cross.svg" alt="Cross" width="25"/> | 
-| Remove seat to Per Seat Subscription | <img src="/img/tick.svg" alt="Tick" width="25"/>  | <img src="/img/cross.svg" alt="Cross" width="25"/> | 
-| Update Payment Method for subscription | <img src="/img/tick.svg" alt="Tick" width="25"/>  | <img src="/img/cross.svg" alt="Cross" width="25"/> | 
+The API uses standard HTTP status codes to indicate the success or failure of requests:
 
-### Customers
+* `200 OK` - The request was successful
+* `201 Created` - A resource was successfully created
+* `400 Bad Request` - The request was invalid or malformed
+* `401 Unauthorized` - Authentication failed or was not provided
+* `403 Forbidden` - The authenticated user doesn't have permission
+* `404 Not Found` - The requested resource doesn't exist
+* `429 Too Many Requests` - Rate limit exceeded
+* `500 Internal Server Error` - An error occurred on the server
 
-| Feature | REST API | Stripe Interopt |
-| --- | ---- | --- |
-| Create Customer | <img src="/img/tick.svg" alt="Tick" width="25"/>  | <img src="/img/cross.svg" alt="Cross" width="25"/> | 
-| Disable Customer | <img src="/img/tick.svg" alt="Tick" width="25"/>  | <img src="/img/cross.svg" alt="Cross" width="25"/> | 
-| Enable Customer | <img src="/img/tick.svg" alt="Tick" width="25"/>  | <img src="/img/cross.svg" alt="Cross" width="25"/> | 
-| Customer Limit List | <img src="/img/tick.svg" alt="Tick" width="25"/>  | <img src="/img/cross.svg" alt="Cross" width="25"/> | 
-| List Customers | <img src="/img/tick.svg" alt="Tick" width="25"/>  | <img src="/img/cross.svg" alt="Cross" width="25"/> | 
-| Read Customer | <img src="/img/tick.svg" alt="Tick" width="25"/>  | <img src="/img/cross.svg" alt="Cross" width="25"/> | 
-| Update Customer | <img src="/img/tick.svg" alt="Tick" width="25"/>  | <img src="/img/cross.svg" alt="Cross" width="25"/> | 
+Error responses include a JSON body with details about the error:
 
-### Payment Methods
-
-| Feature | REST API | Stripe Interopt |
-| --- | ---- | --- |
-| Delete Payment Method | <img src="/img/tick.svg" alt="Tick" width="25"/>  | <img src="/img/cross.svg" alt="Cross" width="25"/> | 
-| List Payment Methods | <img src="/img/tick.svg" alt="Tick" width="25"/>  | <img src="/img/cross.svg" alt="Cross" width="25"/> | 
-| Create Payment Method | <img src="/img/tick.svg" alt="Tick" width="25"/>  | <img src="/img/cross.svg" alt="Cross" width="25"/> | 
-
-### Payments
-
-| Feature | REST API | Stripe Interopt |
-| --- | ---- | --- |
-| List Payments | <img src="/img/tick.svg" alt="Tick" width="25"/>  | <img src="/img/cross.svg" alt="Cross" width="25"/> | 
-| Refund Payment | <img src="/img/tick.svg" alt="Tick" width="25"/>  | <img src="/img/cross.svg" alt="Cross" width="25"/> | 
-| List Customer Payments | <img src="/img/tick.svg" alt="Tick" width="25"/>  | <img src="/img/cross.svg" alt="Cross" width="25"/> | 
-
-### Price 
-
-| Feature | REST API | Stripe Interopt |
-| --- | ---- | --- |
-| List Prices | <img src="/img/tick.svg" alt="Tick" width="25"/>  | <img src="/img/cross.svg" alt="Cross" width="25"/> | 
-| Create Price | <img src="/img/tick.svg" alt="Tick" width="25"/>  | <img src="/img/cross.svg" alt="Cross" width="25"/> | 
-
-### Product 
-
-| Feature | REST API | Stripe Interopt |
-| --- | ---- | --- |
-| Create Product | <img src="/img/tick.svg" alt="Tick" width="25"/>  | <img src="/img/cross.svg" alt="Cross" width="25"/> | 
-| List Product | <img src="/img/tick.svg" alt="Tick" width="25"/>  | <img src="/img/cross.svg" alt="Cross" width="25"/> | 
-| Update Product | <img src="/img/tick.svg" alt="Tick" width="25"/>  | <img src="/img/cross.svg" alt="Cross" width="25"/> | 
-| View Product | <img src="/img/tick.svg" alt="Tick" width="25"/>  | <img src="/img/cross.svg" alt="Cross" width="25"/> | 
-
-### Refunds 
-
-| Feature | REST API | Stripe Interopt |
-| --- | ---- | --- |
-| List Refunds | <img src="/img/tick.svg" alt="Tick" width="25"/>  | <img src="/img/cross.svg" alt="Cross" width="25"/> | 
-| View Customer Refunds | <img src="/img/tick.svg" alt="Tick" width="25"/>  | <img src="/img/cross.svg" alt="Cross" width="25"/> | 
-| View Refund | <img src="/img/tick.svg" alt="Tick" width="25"/>  | <img src="/img/cross.svg" alt="Cross" width="25"/> |
-
-### Vouchers
-
-| Feature | REST API | Stripe Interopt |
-| --- | ---- | --- |
-| Apply Voucher | <img src="/img/tick.svg" alt="Tick" width="25"/>  | <img src="/img/cross.svg" alt="Cross" width="25"/> | 
+```json
+{
+  "errors": {
+    "field_name": "Error message for this field",
+    "another_field": "Another error message"
+  }
+}
+```
