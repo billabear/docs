@@ -1,29 +1,52 @@
 ---
-title: Due Dates
-sidebar_label: Due Date
+title: Invoice Due Dates
+sidebar_label: Due Dates
 sidebar_position: 2
 ---
-When invoicing customers it's important to tell them when payment for the invoice is due.
 
+# Invoice Due Dates
 
-## Setting a due date on create invoice
+When invoicing customers, it's important to clearly communicate when payment is expected. BillaBear allows you to set due dates for invoices, either using a system-wide default or specifying dates for individual invoices.
 
-You can define what the standard invoice due timing is.
+## Understanding Due Dates
 
-### How To
+The due date on an invoice indicates when the customer should make payment. BillaBear offers two ways to manage due dates:
 
-#### Define default in the system stettings
+1. **System Default** - Set a standard payment term (e.g., 30 days) that applies to all invoices
+2. **Manual Setting** - Specify a custom due date when creating an individual invoice
 
-![Set default](./due_date_screenshots/set_default.png)
+## Setting the System Default Due Date
 
-## Setting a default due date 
+The system default determines how many days after invoice creation the payment is due. This default is used whenever a specific due date isn't provided during invoice creation.
 
-You can set the due date manually during the manually create invoice process.
+### How to Set the System Default
 
-If it's not provided the default setting is used.
+1. Navigate to **Settings** in the main menu
+2. Select **System Settings**
+3. Find the **Invoice Due Date** section
+4. Enter the number of days for your standard payment terms
+5. Click **Save** or **Update**
 
-### How To
+![Setting the default due date](./due_date_screenshots/set_default.png)
 
-### Define due date in create invoice form
+## Setting a Due Date for Individual Invoices
 
-![Set due at](./due_date_screenshots/set_during_create.png)
+When creating an invoice manually, you can specify a custom due date that overrides the system default.
+
+### How to Set a Custom Due Date
+
+1. Navigate to the **Create Invoice** page
+2. Fill in the customer and line item details
+3. In the **Due Date** field, either:
+   - Enter a specific date using the date picker
+   - Leave it blank to use the system default
+4. Complete the invoice creation process
+
+![Setting due date during invoice creation](./due_date_screenshots/set_during_create.png)
+
+## Best Practices for Due Dates
+
+* Set a system default that aligns with your standard business terms
+* Use custom due dates for special arrangements with specific customers
+* Consider industry standards and local business practices when setting due dates
+* Ensure your due dates comply with any contractual agreements you have with customers
