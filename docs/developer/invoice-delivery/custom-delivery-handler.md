@@ -139,6 +139,8 @@ public function __construct(
 
 This means that you don't need to manually register your delivery handler in any configuration files or service containers. Simply implementing the `DeliveryHandlerInterface` is enough for your handler to be discovered and used by the system.
 
+The `DeliveryHandlerProvider` uses case-insensitive matching when looking for handlers. This means that your handler will be matched regardless of the case used in the type stored in the `InvoiceDeliverySettings` entity. For example, if your handler's name is "custom_handler", it will match with "CUSTOM_HANDLER", "Custom_Handler", or any other case variation. This provides flexibility and prevents issues when the case of the handler name doesn't exactly match the case of the type in the settings.
+
 ## Best Practices
 
 When creating a custom delivery handler:
