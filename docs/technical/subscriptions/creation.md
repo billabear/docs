@@ -95,24 +95,6 @@ When creating a subscription with a trial:
 3. When the trial ends, the subscription is automatically converted to a paid subscription
 4. If payment fails at the end of the trial, the subscription is cancelled
 
-### Trial Eligibility Validation
-
-BillaBear includes a validation system to prevent trial abuse. The system checks:
-
-1. If the subscription plan has the "One Per Customer" flag enabled
-2. If the customer has previously used a trial for this subscription plan
-
-If both conditions are true, the trial creation request is rejected with a validation error. This prevents customers from repeatedly using trials for the same subscription plan.
-
-#### Implementation Details
-
-The validation is implemented using the Symfony Validator component:
-
-- `CustomerEligibleForTrial` constraint: Defines the validation rule
-- `CustomerEligibleForTrialValidator`: Implements the validation logic
-
-The validator checks the customer's subscription event history for any `TRIAL_STARTED` events associated with the requested subscription plan. If a matching event is found and the plan has the "One Per Customer" flag enabled, the validation fails.
-
 ## Metadata Support
 
 When creating a subscription, you can include custom metadata that will be stored with the subscription record. This metadata can be used for:

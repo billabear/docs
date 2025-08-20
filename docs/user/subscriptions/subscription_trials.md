@@ -42,9 +42,7 @@ To offer trials, you need to configure your subscription plans appropriately:
 
 1. **Enable Standalone Trial**: For subscription plans that should offer standalone trials, enable the "Standalone Trial" option when creating or editing the plan.
 
-2. **One Per Customer**: Enable this option to limit customers to using a trial for this subscription plan only once. This prevents customers from repeatedly signing up for trials of the same plan.
-
-3. **Trial Length**: Define the default trial length for the subscription plan. This determines how long the trial period will last if not overridden during subscription creation.
+2. **Trial Length**: Define the default trial length for the subscription plan. This determines how long the trial period will last if not overridden during subscription creation.
 
 ## Creating Trial Subscriptions
 
@@ -121,17 +119,6 @@ Consider whether to:
 - Limit certain premium features
 - Cap usage during the trial period
 - Require payment information upfront
-- Limit customers to one trial per subscription plan
-
-#### Preventing Trial Abuse
-
-The "One Per Customer" feature helps prevent trial abuse by ensuring each customer can only use a trial for a specific subscription plan once. This is particularly useful for:
-
-- Preventing customers from creating multiple accounts to get unlimited free trials
-- Encouraging conversion to paid subscriptions
-- Maintaining the integrity of your trial program
-
-When enabled, BillaBear tracks trial usage by customer and subscription plan, automatically rejecting trial requests from customers who have already used a trial for that plan.
 
 ## Common Trial Scenarios
 
