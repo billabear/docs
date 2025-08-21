@@ -11,6 +11,7 @@ This log was starting
 
 * Improve Stripe import view to make it clear why an import failed.
 * Improved country tax lists to show which countries need tax registration and which countries tax is being collected for.
+* Fixed localization issues in PaymentList.vue by replacing hardcoded text with proper translation keys.
 
 ### Functionality
 
@@ -38,6 +39,7 @@ This log was starting
 * Refactor DTOs to be readonly
 * Modernised frontend JavaScript by converting `var` declarations to `const/let` in Vue.js components and store files
 * Fixed duplicate CSS definitions in three.css file - removed duplicate `.form-field-lbl` definitions, empty `.detail-list` rule, and converted direct CSS properties to Tailwind utilities
+
 
 ## Version 2025.01.03 - 02.02.2025
 
