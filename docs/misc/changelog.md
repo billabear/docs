@@ -38,8 +38,8 @@ This log was starting
 
 * Refactor DTOs to be readonly
 * Modernised frontend JavaScript by converting `var` declarations to `const/let` in Vue.js components and store files
+* Improved code readability by replacing generic 'doStuff' method names with descriptive names in Vue.js list components
 * Fixed duplicate CSS definitions in three.css file - removed duplicate `.form-field-lbl` definitions, empty `.detail-list` rule, and converted direct CSS properties to Tailwind utilities
-
 
 ## Version 2025.01.03 - 02.02.2025
 
