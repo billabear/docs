@@ -11,6 +11,7 @@ This log was starting
 
 * Improve Stripe import view to make it clear why an import failed.
 * Improved country tax lists to show which countries need tax registration and which countries tax is being collected for.
+* Fixed localization issues in PaymentList.vue by replacing hardcoded text with proper translation keys.
 
 ### Functionality
 
