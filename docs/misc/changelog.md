@@ -40,6 +40,7 @@ This log was starting
 * Modernised frontend JavaScript by implementing ES6+ standards: converted `var` declarations to `const/let`, replaced string concatenation with template literals, converted function expressions to arrow functions, and replaced manual loops with modern array methods (filter, forEach) across Vue.js components, services, store files, and test files
 * Improved code readability by replacing generic 'doStuff' method names with descriptive names in Vue.js list components
 * Fixed duplicate CSS definitions in three.css file - removed duplicate `.form-field-lbl` definitions, empty `.detail-list` rule, and converted direct CSS properties to Tailwind utilities
+* Removed duplicated getBrowserLocale function by introducing a shared utility and updating billabear.js and public.js to use it
 
 ## Version 2025.01.03 - 02.02.2025
 
