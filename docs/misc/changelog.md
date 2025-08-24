@@ -44,6 +44,7 @@ This log was starting
 * Established comprehensive frontend testing infrastructure with Vitest framework, replacing Jest configuration with modern testing setup including Vue Test Utils integration, comprehensive test utilities for component testing, example tests for Vue components, and complete documentation for frontend testing standards
 * Implemented URL builder utilities with TypeScript support for consistent URL construction patterns, proper query parameter handling, path building with encoding, and comprehensive unit tests
 * Standardised JavaScript service patterns and error handling across all service files: fixed axios configuration syntax errors, replaced custom error handling with consistent handleResponse usage, removed unnecessary headers and data properties from GET requests, and corrected export naming inconsistencies
+* Fixed build configuration issues by removing redundant Jest dependencies (keeping Vitest as the primary testing framework) and added missing TypeScript dependencies (@types/node, @types/vue, typescript) to ensure proper development workflow and prevent build failures
 
 
 ## Version 2025.01.03 - 02.02.2025
