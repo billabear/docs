@@ -49,6 +49,7 @@ This log was starting
 * Continued Vue Composition API migration: migrated 3 additional navigation components (InvoiceGroup.vue, SettingsGroup.vue, SubscriptionGroup.vue) from Options API to Composition API with `<script setup>` syntax, bringing total progress to 15/194 components (7.7%)
 * Continued Vue Composition API migration Phase 2: migrated 3 more simple navigation components (SubscriptionPlanGroup.vue, SystemGroup.vue, WorkflowsGroup.vue) from Options API to Composition API with `<script setup>` syntax, and fixed component name bug in WorkflowsGroup.vue, bringing total progress to 18/194 components (9.3%)
 * Continued Vue Composition API migration Phase 2: migrated 3 additional simple components (AppLogo.vue, PublicLogo.vue, ErrorBear.vue) from Options API to Composition API with `<script setup>` syntax, including proper props handling with defineProps() for ErrorBear.vue, bringing total progress to 21/194 components (10.8%)
+* Continued Vue Composition API migration Phase 2: migrated 2 additional simple navigation components (Billing.vue, TransactionView.vue) from Options API to Composition API with `<script setup>` syntax, bringing total progress to 23/194 components (11.9%)
 
 
 ## Version 2025.01.03 - 02.02.2025
