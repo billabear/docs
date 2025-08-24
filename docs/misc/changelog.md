@@ -43,7 +43,6 @@ This log was starting
 * Removed duplicated getBrowserLocale function by introducing a shared utility and updating billabear.js and public.js to use it
 * Established comprehensive frontend testing infrastructure with Vitest framework, replacing Jest configuration with modern testing setup including Vue Test Utils integration, comprehensive test utilities for component testing, example tests for Vue components, and complete documentation for frontend testing standards
 * Implemented URL builder utilities with TypeScript support for consistent URL construction patterns, proper query parameter handling, path building with encoding, and comprehensive unit tests
-* Standardised JavaScript service patterns and error handling across all service files: fixed axios configuration syntax errors, replaced custom error handling with consistent handleResponse usage, removed unnecessary headers and data properties from GET requests, and corrected export naming inconsistencies
 
 
 ## Version 2025.01.03 - 02.02.2025
