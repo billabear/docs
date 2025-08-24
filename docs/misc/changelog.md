@@ -38,6 +38,7 @@ This log was starting
 
 * Refactor DTOs to be readonly
 * Modernised frontend JavaScript by implementing ES6+ standards: converted `var` declarations to `const/let`, replaced string concatenation with template literals, converted function expressions to arrow functions, and replaced manual loops with modern array methods (filter, forEach) across Vue.js components, services, store files, and test files
+* Completed remaining modern JavaScript standards updates in public Vue components: updated CheckoutView.vue, PayView.vue, QuotePayView.vue, and CustomerManage.vue to replace remaining `var` declarations with `const/let` and convert string concatenation to template literals
 * Improved code readability by replacing generic 'doStuff' method names with descriptive names in Vue.js list components
 * Fixed duplicate CSS definitions in three.css file - removed duplicate `.form-field-lbl` definitions, empty `.detail-list` rule, and converted direct CSS properties to Tailwind utilities
 * Removed duplicated getBrowserLocale function by introducing a shared utility and updating billabear.js and public.js to use it
@@ -46,6 +47,10 @@ This log was starting
 * Standardised JavaScript service patterns and error handling across all service files: fixed axios configuration syntax errors, replaced custom error handling with consistent handleResponse usage, removed unnecessary headers and data properties from GET requests, and corrected export naming inconsistencies
 * Fixed build configuration issues by removing redundant Jest dependencies (keeping Vitest as the primary testing framework) and added missing TypeScript dependencies (@types/node, @types/vue, typescript) to ensure proper development workflow and prevent build failures
 * Fixed CSS organisation issues and inconsistent styling patterns: removed duplicate button class definitions between app.css and three.css files, cleaned up extra blank lines and formatting inconsistencies, consolidated conflicting .btn--main, .btn--danger, and .btn--secondary definitions, and created comprehensive styling standards documentation to establish clear guidelines for Tailwind vs custom CSS usage
+* Continued Vue Composition API migration: migrated 3 additional navigation components (InvoiceGroup.vue, SettingsGroup.vue, SubscriptionGroup.vue) from Options API to Composition API with `<script setup>` syntax, bringing total progress to 15/194 components (7.7%)
+* Continued Vue Composition API migration Phase 2: migrated 3 more simple navigation components (SubscriptionPlanGroup.vue, SystemGroup.vue, WorkflowsGroup.vue) from Options API to Composition API with `<script setup>` syntax, and fixed component name bug in WorkflowsGroup.vue, bringing total progress to 18/194 components (9.3%)
+* Continued Vue Composition API migration Phase 2: migrated 3 additional simple components (AppLogo.vue, PublicLogo.vue, ErrorBear.vue) from Options API to Composition API with `<script setup>` syntax, including proper props handling with defineProps() for ErrorBear.vue, bringing total progress to 21/194 components (10.8%)
+* Continued Vue Composition API migration Phase 2: migrated 2 additional simple navigation components (Billing.vue, TransactionView.vue) from Options API to Composition API with `<script setup>` syntax, bringing total progress to 23/194 components (11.9%)
 
 
 ## Version 2025.01.03 - 02.02.2025
