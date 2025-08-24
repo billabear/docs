@@ -46,6 +46,7 @@ This log was starting
 * Standardised JavaScript service patterns and error handling across all service files: fixed axios configuration syntax errors, replaced custom error handling with consistent handleResponse usage, removed unnecessary headers and data properties from GET requests, and corrected export naming inconsistencies
 * Fixed build configuration issues by removing redundant Jest dependencies (keeping Vitest as the primary testing framework) and added missing TypeScript dependencies (@types/node, @types/vue, typescript) to ensure proper development workflow and prevent build failures
 * Fixed CSS organisation issues and inconsistent styling patterns: removed duplicate button class definitions between app.css and three.css files, cleaned up extra blank lines and formatting inconsistencies, consolidated conflicting .btn--main, .btn--danger, and .btn--secondary definitions, and created comprehensive styling standards documentation to establish clear guidelines for Tailwind vs custom CSS usage
+* Continued Vue Composition API migration: migrated 3 additional navigation components (InvoiceGroup.vue, SettingsGroup.vue, SubscriptionGroup.vue) from Options API to Composition API with `<script setup>` syntax, bringing total progress to 15/194 components (7.7%)
 
 
 ## Version 2025.01.03 - 02.02.2025
